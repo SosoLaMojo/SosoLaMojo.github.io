@@ -7,7 +7,7 @@
 ## Points Positifs
 * Première utilisation de la tilemap sur Unity, ce qui m'a beaucoup appris
 * Bonne communication avec mon binôme Vincent
-* Le jeu fonctionne et correspond a mes attentes dans le temps qui nous a été impartit
+* Le jeu fonctionne et correspond à mes attentes dans le temps qui nous a été impartit
 * Collaboration avec un Gameart de la SAE
 
 ## Points Négatifs
