@@ -2,6 +2,10 @@
 
 # Portfolio
 
+# Blogpost Technique du jeu Dungeon Survivor
+
+Le jeu Dungeon Survivor à été crée dans le cadre du module 4400 en Games Programming de l'école SAE Institute Genève
+
 # Post-mortem S.O.S : Save Our Souls
 
 ## Points Positifs
