@@ -60,12 +60,17 @@ Etat ATTACK:
 
 ![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieClassique.PNG)
 
+Il va activer son animation d'attaque au contact du joueur mais si son bool isAttack passe a false il va arreter son animation d'attaque.
+
 Etat DEAD:
 
 ![Condition de mort](SosoLaMojo.github.io/assets/GIF/DépartUpdateForStateMachineZombieClassique.PNG)
 
+Avant le début de la state machine il va tout le temps contrôler si la vie du zombie est isAlive ou non, si sa vie tombe a zero il passera a n'importe quel moment en état DEAD.
+
 ![State DEAD](SosoLaMojo.github.io/assets/GIF/StateMachineDEADZombieClassique.PNG)
 
+Si il entre en état DEAD il va alors jouer son animation de mort puis se détruire.
 
 * Le deuxième se nomme "Zombie Kamikaze", il attaque le joueur dès qu'il est à sa portée et il explose au contact de celui-ci, ce qui cause de gros dégâts. Tout ceci marche à l'aide de Transform, Trigger et machine d'états.
 
