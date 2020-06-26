@@ -15,7 +15,9 @@ On incarne un humain armé d'un pistolet qui se trouve dans un donjon qui contie
 ## Répartition des tâches
 
 Nous nous sommes diviser le travail en plusieurs tâches.
+
 Bryan: Chargé des 3C(camera, controls, character) et la génération procédurale du donjon.
+
 Solange: Chargé des ennemis (IA et state machine), level design, animations et UI.
 
 ## 3C
@@ -33,6 +35,14 @@ https://zcallmez.github.io/
 
 ## Zombies
 * Le premier se nomme "Zombie Classique", il a un comportement qu'on peut retrouver dans la majorité des jeux de zombies. Il réagit et attaque dès que le joueur se trouve dans son champ de vision. Tout ceci marche à l'aide de Transform, Trigger et machine d'états.
+
+Voici comment fonctionne sa machine d'états:
+
+![State IDLE](SosoLaMojo.github.io/assets/GIF/StateMachineIDLEZombieClassique.PNG)
+Il ne fait rien sauf si le bool isFollowingPlayer passe a true, a ce moment il passera à l'état FOLLOW.
+
+![State FOLLOW](SosoLaMojo.github.io/assets/GIF/StateMachineFOLLOWZombieClassique2.PNG)
+
 
 * Le deuxième se nomme "Zombie Kamikaze", il attaque le joueur dès qu'il est à sa portée et il explose au contact de celui-ci, ce qui cause de gros dégâts. Tout ceci marche à l'aide de Transform, Trigger et machine d'états.
 
