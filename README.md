@@ -18,7 +18,7 @@ En ce qui concerne le joueur, il peut se déplacer et tirer et il peut se faire 
 
 ## Pathfinding
 
-![Generation des nodes](C:\Users\Solange\Videos\DungeonSurvivor\Nodes.gif)
+![Generation des nodes](SosoLaMojo.github.io/Nodes.gif)
 
 ## Zombies
 * Le premier se nomme "Zombie Classique", il a un comportement qu'on peut retrouver dans la majorité des jeux de zombies. Il réagit et attaque dès que le joueur se trouve dans son champ de vision. Tout ceci marche à l'aide de Transform et de Trigger.
