@@ -7,16 +7,25 @@
 ## Mise en contexte
 
 Le jeu Dungeon Survivor à été crée dans le cadre du module 4400 en Games Programming de l'école SAE Institute Genève dans le but nous évaluer sur l'implémentation d'une génération procédurale et d'une intelligence artificielle en binôme.
-On incarne un humain armé d'un pistolet qui se trouve dans une salle avec une horloge et le but est de parcourir un dongeon rempli de zombies afin de trouver le coffre qui se trouve dans le donjon.
+
+## Pitch
+
+On incarne un humain armé d'un pistolet qui se trouve dans un donjon qui contient des zombies et le but est de parcourir ce donjon tout en survivant afin de trouver le coffre qui se trouve en fin de parcours pour gagner la partie.
+
+## Répartition des tâches
 
 Nous nous sommes diviser le travail en plusieurs tâches.
-Bryan: Chargé des 3C(camera, controls, character), la génération et procédurale du donjon.
+Bryan: Chargé des 3C(camera, controls, character) et la génération procédurale du donjon.
 Solange: Chargé des ennemis (IA et state machine), level design, animations et UI.
-
-## Introduction
 
 ## 3C
 En ce qui concerne le joueur, il peut se déplacer et tirer et il peut se faire attaquer et ainsi perdre de la vie. Il se déplace avec les touches WASD et sa rotation suit la position de la souris. Pour tirer, il faut appuyé sur le clique gauche. La caméra suit en permanence le joueur.
+
+## Génération procédurale
+En ce qui concerne la génération procédurale, on a opté pour un système de salle pré-fabriqué. Chaque salle possède plusieurs points de spawn pour les ennemies et les objects de soins qui sont générés en même temps.
+
+Je vous met le lien du blogpost technique de mon binome Bryan qui c'est lui-même chargé de l'implémentation de la génération procédurale:
+https://zcallmez.github.io/
 
 ## Pathfinding
 
@@ -28,12 +37,6 @@ En ce qui concerne le joueur, il peut se déplacer et tirer et il peut se faire 
 * Le deuxième se nomme "Zombie Kamikaze", il attaque le joueur dès qu'il est à sa portée et il explose au contact de celui-ci, ce qui cause de gros dégâts. Tout ceci marche à l'aide de Transform, Trigger et machine d'états.
 
 * Le dernier se nomme "Zombie Tank", il se déplace autour des coffres qui permet de gagner la partie et possède un nombre de points de vie assez élévé. Sa particularité est qu'au contact du joueur, celui-ci perd de la vie et est directement téléporter au début du niveau. Tout ceci marche à l'aide de Transform et de Trigger.
-
-## Génération procédurale
-En ce qui concerne la génération procédurale, on a opté pour un système de salle pré-fabriqué. Chaque salle possède plusieurs points de spawn pour les ennemies et les objects de soins qui sont générés en même temps.
-
-Je vous met le lien du blogpost technique de mon binome Bryan qui c'est lui-même chargé de l'implémentation de la génération procédurale:
-
 
 ## Conclusion
 
