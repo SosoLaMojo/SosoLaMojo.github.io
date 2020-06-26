@@ -31,6 +31,8 @@ https://zcallmez.github.io/
 
 ## Pathfinding
 
+Voici un rendu visuel qui montre comment se placent les nodes sur la map afin que les zombies puissent trouver leur chemin
+
 ![Generation des nodes](SosoLaMojo.github.io/assets/GIF/Nodes.gif)
 
 ## Zombies
