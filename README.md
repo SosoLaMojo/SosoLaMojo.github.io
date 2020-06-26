@@ -36,6 +36,8 @@ https://zcallmez.github.io/
 ## Zombies
 * Le premier se nomme "Zombie Classique", il a un comportement qu'on peut retrouver dans la majorité des jeux de zombies. Il réagit et attaque dès que le joueur se trouve dans son champ de vision. Tout ceci marche à l'aide de Transform, Trigger et machine d'états.
 
+![ZombieClassique](SosoLaMojo.github.io/assets/GIF/ZombieClassique.gif)
+
 Voici comment fonctionne sa machine d'états:
 
 Etat IDLE:
