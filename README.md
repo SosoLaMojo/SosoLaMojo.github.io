@@ -58,6 +58,8 @@ Il ne fait rien sauf si le bool isFollowingPlayer passe a true, a ce moment il p
 
 * Le deuxième se nomme "Zombie Kamikaze", il attaque le joueur dès qu'il est à sa portée et il explose au contact de celui-ci, ce qui cause de gros dégâts. Tout ceci marche à l'aide de Transform, Trigger et machine d'états.
 
+Il fonctionne de la même manière que le zombie classique à quelques différences près:
+
 * Le dernier se nomme "Zombie Tank", il se déplace autour des coffres qui permet de gagner la partie et possède un nombre de points de vie assez élévé. Sa particularité est qu'au contact du joueur, celui-ci perd de la vie et est directement téléporter au début du niveau. Tout ceci marche à l'aide de Transform et de Trigger.
 
 ## Conclusion
