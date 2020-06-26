@@ -58,7 +58,7 @@ Il va récupérer le script du pathfinding afin de trouver son chemin jusqu'a sa
 
 Etat ATTACK:
 
-
+![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieClassique.PNG)
 
 Etat DEAD:
 
@@ -69,7 +69,7 @@ Etat DEAD:
 
 * Le deuxième se nomme "Zombie Kamikaze", il attaque le joueur dès qu'il est à sa portée et il explose au contact de celui-ci, ce qui cause de gros dégâts. Tout ceci marche à l'aide de Transform, Trigger et machine d'états.
 
-![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieClassique.PNG)
+![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieKamikaze.PNG)
 
 Il fonctionne de la même manière que le zombie classique à quelques différences près:
 
