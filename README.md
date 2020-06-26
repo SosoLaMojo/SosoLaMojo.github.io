@@ -38,11 +38,21 @@ https://zcallmez.github.io/
 
 Voici comment fonctionne sa machine d'états:
 
-![State IDLE](SosoLaMojo.github.io/assets/GIF/StateMachineIDLEZombieClassique.PNG)
-
 Il ne fait rien sauf si le bool isFollowingPlayer passe a true, a ce moment il passera à l'état FOLLOW.
 
+![State IDLE](SosoLaMojo.github.io/assets/GIF/StateMachineIDLEZombieClassique.PNG)
+
+
+
 ![State FOLLOW](SosoLaMojo.github.io/assets/GIF/StateMachineFOLLOWZombieClassique2.PNG)
+
+![State RETURN_INITIALPOSITION](SosoLaMojo.github.io/assets/GIF/StateMachineRETURN_INITIALPOSITIONZombieClassique.PNG)
+
+![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieClassique.PNG)
+
+![State DEAD](SosoLaMojo.github.io/assets/GIF/StateMachineDEADZombieClassique.PNG)
+
+![Condition de mort](SosoLaMojo.github.io/assets/GIF/DépartUpdateForStateMachineZombieClassique.PNG)
 
 
 
