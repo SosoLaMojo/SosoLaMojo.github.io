@@ -16,6 +16,10 @@ Solange: Chargé des ennemis, level design, animations, sons, menu et IA.
 ## 3C
 En ce qui concerne le joueur, il peut se déplacer et tirer et il peut se faire attaquer et ainsi perdre de la vie. Il se déplace avec les touches WASD et sa rotation suit la position de la souris. Pour tirer, il faut appuyé sur le clique gauche. La caméra suit en permanence le joueur.
 
+## Pathfinding
+
+![Generation des nodes](C:\Users\Solange\Videos\DungeonSurvivor\Nodes.gif)
+
 ## Zombies
 * Le premier se nomme "Zombie Classique", il a un comportement qu'on peut retrouver dans la majorité des jeux de zombies. Il réagit et attaque dès que le joueur se trouve dans son champ de vision. Tout ceci marche à l'aide de Transform et de Trigger.
 
