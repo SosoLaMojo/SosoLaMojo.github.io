@@ -52,11 +52,13 @@ Il va récupérer le script du pathfinding afin de trouver son chemin jusqu'au j
 
 Etat RETURN_INITIALPOSITION:
 
+Il va récupérer le script du pathfinding afin de trouver son chemin jusqu'a sa position initiale et utiliser la fonction MoveCharacter() qui lui permet de se déplacer. Quand sa position initiale est atteinte il va retourner a l'état IDLE, mais lors de son déplacement si il détécte le joueur il passera à l'état ATTACK.
+
 ![State RETURN_INITIALPOSITION](SosoLaMojo.github.io/assets/GIF/StateMachineRETURN_INITIALPOSITIONZombieClassique.PNG)
 
 Etat ATTACK:
 
-![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieClassique.PNG)
+
 
 Etat DEAD:
 
@@ -66,6 +68,8 @@ Etat DEAD:
 
 
 * Le deuxième se nomme "Zombie Kamikaze", il attaque le joueur dès qu'il est à sa portée et il explose au contact de celui-ci, ce qui cause de gros dégâts. Tout ceci marche à l'aide de Transform, Trigger et machine d'états.
+
+![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieClassique.PNG)
 
 Il fonctionne de la même manière que le zombie classique à quelques différences près:
 
