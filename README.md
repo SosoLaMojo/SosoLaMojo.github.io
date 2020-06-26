@@ -27,7 +27,7 @@ En ce qui concerne le joueur, il peut se déplacer et tirer et il peut se faire 
 En ce qui concerne la génération procédurale, on a opté pour un système de salle pré-fabriqué. Chaque salle possède plusieurs points de spawn pour les ennemies et les objects de soins qui sont générés en même temps.
 
 Je vous met le lien du blogpost technique de mon binome Bryan qui c'est lui-même chargé de l'implémentation de la génération procédurale:
-https://zcallmez.github.io/
+[Lien Blogpost Bryan](https://zcallmez.github.io/)
 
 ## Pathfinding
 
