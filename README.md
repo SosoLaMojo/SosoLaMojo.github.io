@@ -42,7 +42,7 @@ Il ne fait rien sauf si le bool isFollowingPlayer passe a true, a ce moment il p
 
 ![State IDLE](SosoLaMojo.github.io/assets/GIF/StateMachineIDLEZombieClassique.PNG)
 
-
+Il va récupérer le script du pathfinding afin de trouver son chemin jusqu'au joueur et utiliser la fonction MoveCharacter() qui lui permet de se déplacer. Si le joueur sort de sa zone de détéction il passera à l'état RETURN_INITIALPOSITION, autrement si le bool isAttack passe a true en entrant en collision avec le joueur il passera à l'état ATTACK.
 
 ![State FOLLOW](SosoLaMojo.github.io/assets/GIF/StateMachineFOLLOWZombieClassique2.PNG)
 
@@ -50,10 +50,9 @@ Il ne fait rien sauf si le bool isFollowingPlayer passe a true, a ce moment il p
 
 ![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieClassique.PNG)
 
-![State DEAD](SosoLaMojo.github.io/assets/GIF/StateMachineDEADZombieClassique.PNG)
-
 ![Condition de mort](SosoLaMojo.github.io/assets/GIF/DépartUpdateForStateMachineZombieClassique.PNG)
 
+![State DEAD](SosoLaMojo.github.io/assets/GIF/StateMachineDEADZombieClassique.PNG)
 
 
 * Le deuxième se nomme "Zombie Kamikaze", il attaque le joueur dès qu'il est à sa portée et il explose au contact de celui-ci, ce qui cause de gros dégâts. Tout ceci marche à l'aide de Transform, Trigger et machine d'états.
