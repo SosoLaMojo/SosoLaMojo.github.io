@@ -38,17 +38,27 @@ https://zcallmez.github.io/
 
 Voici comment fonctionne sa machine d'états:
 
+Etat IDLE:
+
 Il ne fait rien sauf si le bool isFollowingPlayer passe a true, a ce moment il passera à l'état FOLLOW.
 
 ![State IDLE](SosoLaMojo.github.io/assets/GIF/StateMachineIDLEZombieClassique.PNG)
+
+Etat FOLLOW:
 
 Il va récupérer le script du pathfinding afin de trouver son chemin jusqu'au joueur et utiliser la fonction MoveCharacter() qui lui permet de se déplacer. Si le joueur sort de sa zone de détéction il passera à l'état RETURN_INITIALPOSITION, autrement si le bool isAttack passe a true en entrant en collision avec le joueur il passera à l'état ATTACK.
 
 ![State FOLLOW](SosoLaMojo.github.io/assets/GIF/StateMachineFOLLOWZombieClassique2.PNG)
 
+Etat RETURN_INITIALPOSITION:
+
 ![State RETURN_INITIALPOSITION](SosoLaMojo.github.io/assets/GIF/StateMachineRETURN_INITIALPOSITIONZombieClassique.PNG)
 
+Etat ATTACK:
+
 ![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieClassique.PNG)
+
+Etat DEAD:
 
 ![Condition de mort](SosoLaMojo.github.io/assets/GIF/DépartUpdateForStateMachineZombieClassique.PNG)
 
