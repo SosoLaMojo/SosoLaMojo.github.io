@@ -58,25 +58,27 @@ Il va récupérer le script du pathfinding afin de trouver son chemin jusqu'a sa
 
 Etat ATTACK:
 
-![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieClassique.PNG)
+Il va activer son animation d'attaque au contact du joueur mais si son bool isAttack passe a false il va arreter son animation d'attaque et retourner à l'état IDLE pour autant que le joueur ne soit pas dans son chant de détéction.
 
-Il va activer son animation d'attaque au contact du joueur mais si son bool isAttack passe a false il va arreter son animation d'attaque.
+![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieClassique.PNG)
 
 Etat DEAD:
 
-![Condition de mort](SosoLaMojo.github.io/assets/GIF/DépartUpdateForStateMachineZombieClassique.PNG)
-
 Avant le début de la state machine il va tout le temps contrôler si la vie du zombie est isAlive ou non, si sa vie tombe a zero il passera a n'importe quel moment en état DEAD.
 
-![State DEAD](SosoLaMojo.github.io/assets/GIF/StateMachineDEADZombieClassique.PNG)
+![Condition de mort](SosoLaMojo.github.io/assets/GIF/DépartUpdateForStateMachineZombieClassique.PNG)
 
 Si il entre en état DEAD il va alors jouer son animation de mort puis se détruire.
 
+![State DEAD](SosoLaMojo.github.io/assets/GIF/StateMachineDEADZombieClassique.PNG)
+
 * Le deuxième se nomme "Zombie Kamikaze", il attaque le joueur dès qu'il est à sa portée et il explose au contact de celui-ci, ce qui cause de gros dégâts. Tout ceci marche à l'aide de Transform, Trigger et machine d'états.
 
-![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieKamikaze.PNG)
+Il fonctionne de la même manière que le zombie classique à une différence près:
 
-Il fonctionne de la même manière que le zombie classique à quelques différences près:
+Quand il entre en collision avec le joueur il joue son animation d'explosion et fait plus de dégats au joueur que le zombie classique puis se détruit. Il se déplace aussi bien plus rapidement.
+
+![State ATTACK](SosoLaMojo.github.io/assets/GIF/StateMachineATTACKZombieKamikaze.PNG)
 
 * Le dernier se nomme "Zombie Tank", il se déplace autour des coffres qui permet de gagner la partie et possède un nombre de points de vie assez élévé. Sa particularité est qu'au contact du joueur, celui-ci perd de la vie et est directement téléporter au début du niveau. Tout ceci marche à l'aide de Transform et de Trigger.
 
