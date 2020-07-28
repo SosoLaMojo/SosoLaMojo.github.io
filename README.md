@@ -24,7 +24,7 @@ Voici un exemple d'implémentation des quatre cases à créer:
 
 ## Conclusion
 
-Ce fut un demi-module très difficile, n'ayant pas le background en maths et physique requis pour créer un moteur physique 2D. Mes objectifs pour ce module ne sont clairement pas atteintes.
+Ce fut un demi-module très difficile, n'ayant pas le background en maths et physique requis pour créer un moteur physique 2D. Mes objectifs pour ce module ne sont clairement pas atteints.
 
 # Blogpost du jeu Dungeon Survivor
 
