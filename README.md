@@ -6,7 +6,7 @@
 
 ## Mise en contexte
 
-Dans le cadre de fin de module 4400 nous devions créer un moteur physique 2D sur les bases du Neko Engine créer par nos professeurs en implémentant les matrices, vecteurs, collisions, rebonds, rigidbody, AABB etc...
+Dans le cadre de fin de module 4400 nous devions créer un moteur physique 2D sur les bases du Neko Engine créé par nos professeurs en implémentant les matrices, vecteurs, collisions, rebonds, rigidbody, AABB etc...
 
 ## Quad-tree
 
