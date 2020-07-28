@@ -2,6 +2,18 @@
 
 # Portfolio
 
+# Blogpost Moteur Physique
+
+## Mise en contexte
+
+Dans le cadre de fin de module 4400 nous devions créer un moteur physique 2D sur les bases du Neko Engine créer par nos professeurs en implémentant les collisions, rebonds, rigidbody, AABB etc...
+
+## AABB
+
+## Conclusion
+
+Ce fut un demi-module très difficile, n'ayant pas le background en maths et physique requis pour créer un moteur physique 2D. Mes objectifs pour ce module ne sont clairement pas atteintes.
+
 # Blogpost du jeu Dungeon Survivor
 
 ## Mise en contexte
