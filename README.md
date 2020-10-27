@@ -2,6 +2,17 @@
 
 # Portfolio
 
+# Game Design Document Pong
+
+## Introduction
+
+Dans le cadre du module 5100 nous devons créer un jeu multijoueur en ligne à l'aide du moteur de jeu NekoEngine, moteur de jeu interne à l'école SAE Institute Genève. Ce jeu doit comporter au minimum un niveau jouable et une interface pour la connexion d'au moins deux joueurs.
+
+## Gameplay
+
+
+
+
 # Blogpost Moteur Physique
 
 ## Mise en contexte
