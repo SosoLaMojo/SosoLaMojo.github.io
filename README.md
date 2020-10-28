@@ -14,7 +14,7 @@ Le jeu PongSoso est une reproduction du jeu Pong imaginé par Nolan Bushnell et 
 
 ## Gameplay
 
-Deux joueurs s'affrontent en déplacant la raquette représentés par un trait de couleur rouge ou bleu verticalement pour frapper la balle. **Le but** est que chaque joueur atteigne le score de **11 points avant l'adversaire**; des points qui sont gagnés lorsque l'un des joueurs ne parvient pas à renvoyer la balle à l'autre. Le joueur peut changer la direction de la balle en fonction de l'endroit où celle-ci tape sur la raquette, alors que la vitesse augmente graduellement au cours de la manche. Un score est affiché pour la partie en cours et un bruitage accompagne la frappe de la balle sur les raquettes. Des murs sont présent en haut et en bas de l'écran afin que la balle ne puisse pas sortir de l'écran par ses extrémités.
+Deux joueurs s'affrontent en déplacant verticalement la raquette représentés par un trait de couleur rouge ou bleu pour frapper la balle. **Le but** est que chaque joueur atteigne le score de **11 points avant l'adversaire**; des points qui sont gagnés lorsque l'un des joueurs ne parvient pas à renvoyer la balle à l'autre. Le joueur peut changer la direction de la balle en fonction de l'endroit où celle-ci tape sur la raquette, alors que la vitesse augmente graduellement au cours de la manche. Un score est affiché pour la partie en cours et un bruitage accompagne la frappe de la balle sur les raquettes. Des murs sont présent en haut et en bas de l'écran afin que la balle ne puisse pas sortir de l'écran par ses extrémités.
 
 ![LevelDesign](SosoLaMojo.github.io/assets/Pong_Soso.jpg)
 
