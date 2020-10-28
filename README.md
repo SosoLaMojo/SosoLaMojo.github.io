@@ -20,7 +20,7 @@ Deux joueurs s'affrontent en déplacant verticalement la raquette représentés 
 
 ## Controls
 
-
+![Input](SosoLaMojo.github.io/assets/InputPongSoso.png)
 
 # Blogpost Moteur Physique
 
