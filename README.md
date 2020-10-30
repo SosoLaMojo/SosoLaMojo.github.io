@@ -28,15 +28,17 @@ Lorsque la balle n'est pas renvoyé par l'un des joueurs et sort de l'écran sur
 
 La balle se déplace à la position 0,0 avec une vélocité de 0.
 
-
+![Mecanic_Ball_2](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball2.jpg)
 
 Le serveur choisit la direction dans laquelle la balle repart avec une vélocité.
 
-
+![Mecanic_Ball_3]()
 
 ###### REBOND DE LA BALLE
 
 Le joueur peut changer la direction de la balle en fonction de l'angle où celle-ci tape sur la raquette en utilisant la refraction.
+
+![Mecanic_Ball_Rebond]()
 
 # Blogpost Moteur Physique
 
