@@ -4,7 +4,7 @@
 
 # Game Design Document PongSoso
 
-## Introduction
+## INTRODUCTION
 
 Dans le cadre du module 5100 nous devons créer un jeu multijoueur en ligne à l'aide du moteur de jeu NekoEngine, moteur de jeu interne à l'école SAE Institute Genève. Ce jeu doit comporter au minimum un niveau jouable et une interface pour la connexion d'au moins deux joueurs.
 
@@ -22,23 +22,23 @@ Deux joueurs s'affrontent en déplacant verticalement la raquette représentés 
 
 ## MECANIQUE DE LA BALLE
 
-Lorsque la balle n'est pas renvoyé par l'un des joueurs et sort de l'écran sur la gauche ou la droite
-
+Lorsque la balle n'est pas renvoyé par l'un des joueurs et sort de l'écran sur la gauche ou la droite la balle se déplace à la position 0,0 avec une vélocité de 0. Puis attend quelques milisecondes avant que le serveur choisise la direction dans laquelle la balle repart avec une vélocité.
 ![Mecanic_Ball_1](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball1.jpg)
-
-La balle se déplace à la position 0,0 avec une vélocité de 0.
-
 ![Mecanic_Ball_2](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball2.jpg)
-
-Le serveur choisit la direction dans laquelle la balle repart avec une vélocité.
-
 ![Mecanic_Ball_3](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball3.jpg)
 
 ###### REBOND DE LA BALLE
 
 Le joueur peut changer la direction de la balle en fonction de l'angle où celle-ci tape sur la raquette en utilisant la refraction.
-
 ![Mecanic_Ball_Rebond](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball4.jpg)
+
+## CHALLENGES
+
+Challenge 1: Mecaniques de la balle
+CHallenge 2: Rebond de la balle
+Challenge 3: Utilisation du rollback pour les 11 rounds de la partie
+
+
 
 # Blogpost Moteur Physique
 
@@ -63,6 +63,9 @@ Voici un exemple d'implémentation des quatre cases à créer:
 ## Conclusion
 
 Ce fut un demi-module très difficile, n'ayant pas le background en maths et physique requis pour créer un moteur physique 2D. Mes objectifs pour ce module ne sont clairement pas atteints.
+
+
+
 
 # Blogpost du jeu Dungeon Survivor
 
@@ -153,6 +156,9 @@ Quand il entre en collision avec le joueur il joue son animation d'explosion et 
 Ce fut très compliqué pour nous de réussir à rendre ce projet dans les délais impartis au vu de nos situations personnelles.
 Notre jeu n'est clairement pas aboutit malgré notre envie de bien faire. J'ai tout de même été très contente de travailler avec Bryan qui est un très bon binôme, nous avone eu une très bonne communication.
 En ce qui concerne l'implémentation de la génération procédurale et le pathfinding j'ai été complétement perdue et n'ai pas réussi à atteindre mes objectifs.
+
+
+
 
 
 # Post-mortem S.O.S : Save Our Souls
