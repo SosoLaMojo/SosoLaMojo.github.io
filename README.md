@@ -34,9 +34,9 @@ Le joueur peut changer la direction de la balle en fonction de l'angle où celle
 
 ## CHALLENGES
 
-Challenge 1: Mecaniques de la balle
-CHallenge 2: Rebond de la balle
-Challenge 3: Utilisation du rollback pour les 11 rounds de la partie
+- Challenge 1: Mecaniques de la balle
+- Challenge 2: Rebond de la balle
+- Challenge 3: Utilisation du rollback pour les 11 rounds de la partie
 
 
 
