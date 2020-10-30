@@ -32,7 +32,7 @@ La balle se déplace à la position 0,0 avec une vélocité de 0.
 
 Le serveur choisit la direction dans laquelle la balle repart avec une vélocité.
 
-![Mecanic_Ball_3]()
+![Mecanic_Ball_3](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball3.jpg)
 
 ###### REBOND DE LA BALLE
 
