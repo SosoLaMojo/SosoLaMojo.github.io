@@ -8,21 +8,35 @@
 
 Dans le cadre du module 5100 nous devons créer un jeu multijoueur en ligne à l'aide du moteur de jeu NekoEngine, moteur de jeu interne à l'école SAE Institute Genève. Ce jeu doit comporter au minimum un niveau jouable et une interface pour la connexion d'au moins deux joueurs.
 
-## Pitch
+## GAMEPLAY
 
 Le jeu PongSoso est une reproduction du jeu Pong imaginé par Nolan Bushnell et développé par Allan Alcorn en 1972. Ce jeu est inspiré du tennis de table en vue du dessus.
 
-## Gameplay
-
-Deux joueurs s'affrontent en déplacant verticalement la raquette représentés par un trait de couleur rouge ou bleu pour frapper la balle. **Le but** est que chaque joueur atteigne le score de **11 points avant l'adversaire**; des points qui sont gagnés lorsque l'un des joueurs ne parvient pas à renvoyer la balle à l'autre. Le joueur peut changer la direction de la balle en fonction de l'endroit où celle-ci tape sur la raquette, alors que la vitesse augmente graduellement au cours de la manche. Un score est affiché pour la partie en cours et un bruitage accompagne la frappe de la balle sur les raquettes. Des murs sont présent en haut et en bas de l'écran afin que la balle ne puisse pas sortir de l'écran par ses extrémités.
+Deux joueurs s'affrontent en déplacant verticalement la raquette représentés par un trait de couleur rouge ou bleu pour frapper la balle. **Le but** est que chaque joueur atteigne le score de **11 points avant l'adversaire**; des points qui sont gagnés lorsque l'un des joueurs ne parvient pas à renvoyer la balle à l'autre. Un score est affiché pour la partie en cours. Des murs sont présent en haut et en bas de l'écran afin que la balle ne puisse pas sortir de l'écran par ses extrémités.
 
 ![LevelDesign](SosoLaMojo.github.io/assets/Pong_Soso.jpg)
 
-## Controls
+## CONTROLS
 
 ![Input](SosoLaMojo.github.io/assets/InputPongSoso.png)
 
+## MECANIQUE DE LA BALLE
 
+Lorsque la balle n'est pas renvoyé par l'un des joueurs et sort de l'écran sur la gauche ou la droite
+
+
+
+La balle se déplace à la position 0,0 avec une vélocité de 0.
+
+
+
+Le serveur choisit la direction dans laquelle la balle repart avec une vélocité.
+
+
+
+###### REBOND DE LA BALLE
+
+Le joueur peut changer la direction de la balle en fonction de l'angle où celle-ci tape sur la raquette en utilisant la refraction.
 
 # Blogpost Moteur Physique
 
