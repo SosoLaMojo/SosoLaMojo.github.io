@@ -24,7 +24,7 @@ Deux joueurs s'affrontent en déplacant verticalement la raquette représentés 
 
 Lorsque la balle n'est pas renvoyé par l'un des joueurs et sort de l'écran sur la gauche ou la droite
 
-
+![Mecanic_Ball_1](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball1.jpg)
 
 La balle se déplace à la position 0,0 avec une vélocité de 0.
 
