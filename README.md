@@ -38,7 +38,7 @@ Le serveur choisit la direction dans laquelle la balle repart avec une vélocit�
 
 Le joueur peut changer la direction de la balle en fonction de l'angle où celle-ci tape sur la raquette en utilisant la refraction.
 
-![Mecanic_Ball_Rebond]()
+![Mecanic_Ball_Rebond](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball4.jpg)
 
 # Blogpost Moteur Physique
 
