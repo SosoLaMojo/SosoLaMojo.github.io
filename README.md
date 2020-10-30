@@ -27,7 +27,7 @@ Lorsque la balle n'est pas renvoyé par l'un des joueurs et sort de l'écran sur
 ![Mecanic_Ball_2](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball2.jpg)
 ![Mecanic_Ball_3](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball3.jpg)
 
-### REBOND DE LA BALLE
+#### REBOND DE LA BALLE
 
 Le joueur peut changer la direction de la balle en fonction de l'angle où celle-ci tape sur la raquette en utilisant la refraction.
 ![Mecanic_Ball_Rebond](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball4.jpg)
