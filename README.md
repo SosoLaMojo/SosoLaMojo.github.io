@@ -6,13 +6,13 @@
 
 ## INTRODUCTION
 
-Dans le cadre du module 5100 nous devons créer un jeu multijoueur en ligne à l'aide du moteur de jeu NekoEngine, moteur de jeu interne à l'école SAE Institute Genève. Ce jeu doit comporter au minimum un niveau jouable et une interface pour la connexion d'au moins deux joueurs.
+As part of the 5100 module we have to create an online multiplayer game using the NekoEngine game engine, internal game engine at the SAE Institute Geneva school. This game must include at least one playable level and an interface for connecting at least two players.
 
 ## GAMEPLAY
 
-Le jeu PongSoso est une reproduction du jeu Pong imaginé par Nolan Bushnell et développé par Allan Alcorn en 1972. Ce jeu est inspiré du tennis de table en vue du dessus.
+The game PongSoso is a reproduction of the game Pong imagined by Nolan Bushnell and developed by Allan Alcorn in 1972. This game is inspired by table tennis in top view.
 
-Deux joueurs s'affrontent en déplacant verticalement la raquette représentés par un trait de couleur rouge ou bleu pour frapper la balle. **Le but** est que chaque joueur atteigne le score de **11 points avant l'adversaire**; des points qui sont gagnés lorsque l'un des joueurs ne parvient pas à renvoyer la balle à l'autre. Un score est affiché pour la partie en cours. Des murs sont présent en haut et en bas de l'écran afin que la balle ne puisse pas sortir de l'écran par ses extrémités.
+Two players compete by moving the racket vertically represented by a red or blue line to hit the ball. **The goal** is that each player reaches the score of **11 points before the opponent**; points that are earned when one player fails to return the ball to the other. A score is displayed for the current game. Walls are present at the top and bottom of the screen so that the ball cannot come out of the screen by its ends.
 
 ![LevelDesign](SosoLaMojo.github.io/assets/Pong_Soso.jpg)
 
@@ -20,23 +20,23 @@ Deux joueurs s'affrontent en déplacant verticalement la raquette représentés 
 
 ![Input](SosoLaMojo.github.io/assets/InputPongSoso.png)
 
-## MECANIQUE DE LA BALLE
+## BALL MECHANICS
 
-Lorsque la balle n'est pas renvoyé par l'un des joueurs et sort de l'écran sur la gauche ou la droite la balle se déplace à la position 0,0 avec une vélocité de 0. Puis attend quelques milisecondes avant que le serveur choisise la direction dans laquelle la balle repart avec une vélocité.
+When the ball is not returned by one of the players and comes out of the screen on the left or right the ball moves to position 0,0 with a velocity of 0. Then wait a few milliseconds before the server choose the direction in which the ball takes off with a velocity.
 ![Mecanic_Ball_1](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball1.jpg)
 ![Mecanic_Ball_2](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball2.jpg)
 ![Mecanic_Ball_3](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball3.jpg)
 
-#### REBOND DE LA BALLE
+#### BALL REBOUND
 
-Le joueur peut changer la direction de la balle en fonction de l'angle où celle-ci tape sur la raquette en utilisant la refraction.
+The player can change the direction of the ball based on the angle at which the ball hits the racket using refraction.
 ![Mecanic_Ball_Rebond](SosoLaMojo.github.io/assets/Pong_Soso_Mecanic_Ball4.jpg)
 
 ## CHALLENGES
 
-- Challenge 1: Mecaniques de la balle
-- Challenge 2: Rebond de la balle
-- Challenge 3: Utilisation du rollback pour les 11 rounds de la partie
+- Challenge 1: Ball mechanics
+- Challenge 2: Ball rebound
+- Challenge 3: Use of rollback for the 11 rounds of the game
 
 
 
