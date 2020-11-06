@@ -2,7 +2,7 @@
 
 # Portfolio
 
-# [Post-mortem S.O.S : Save Our Souls](https.sosolamojo.github.io/Post-mortem S.O.S : Save Our Souls)
+# [Post-mortem S.O.S : Save Our Souls](https.sosolamojo.github.io/SOS_SaveOurSouls)
 
 # Game Design Document PongSoso
 
