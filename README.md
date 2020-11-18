@@ -4,7 +4,7 @@
 
 # [Post-mortem S.O.S : Save Our Souls](https.sosolamojo.github.io/sos_save_our_souls)
 
-UUU
+RRRRRRR
 
 # Game Design Document PongSoso
 
