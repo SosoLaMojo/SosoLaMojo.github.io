@@ -2,6 +2,8 @@
 
 # Portfolio
 
+# [Game Design Document PongSoso](https://sosolamojo.io/pong_soso)
+
 # [Blogpost Moteur Physique](https://sosolamojo.github.io/neko_engine)
 
 # [Blogpost du jeu Dungeon Survivor](https://sosolamojo.github.io/dungeon_survivor)
