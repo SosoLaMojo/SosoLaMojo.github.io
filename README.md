@@ -2,7 +2,7 @@
 
 # Portfolio
 
-# [Game Design Document PongSoso](https://sosolamojo.io/pong_soso)
+# [Game Design Document PongSoso](https://sosolamojo.github.io/pong_soso)
 
 # [Blogpost Moteur Physique](https://sosolamojo.github.io/neko_engine)
 
