@@ -18,5 +18,8 @@ There are limitations at the top and bottom of the screen so that the ball canno
 La vitesse de la balle augmente à chaque fois que la balle entre en collision avec un paddle.
 ![Ball Velocity Increase](SosoLaMojo.github.io/assets/GIF/Pong_Soso_Velocity_balle_augmente.gif)
 
+La balle se déplace a la position 0,0 et retourne a sa vitesse de base une fois sortie du terrain.
+![the ball returns to its base speed](SosoLaMojo.github.io/assets/GIF/Pong_Soso_balle_retourne_velocity_de_base.gif)
+
 ## End of the game
 **The goal** is for each player to lose the **11 lives of the opponent**; lives that are lost when one player fails to return the ball to the other. A life score is displayed for the current game.
