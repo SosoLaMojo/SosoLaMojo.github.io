@@ -22,7 +22,7 @@ The speed of the ball increases each time the ball collides with a paddle board.
 
 ![Ball Collision](SosoLaMojo.github.io/assets/Ball_collision.PNG)
 
-The ball moves to the 0,0 position and returns to its base speed after leaving the field.
+The ball moves to the 0,0 position and returns to its base speed after leaving the field and take a life from the player.
 ![the ball returns to its base speed](SosoLaMojo.github.io/assets/GIF/Pong_Soso_balle_retourne_velocity_de_base.gif)
 
 ![The ball moves to position 0,0](SosoLaMojo.github.io/assets/Ball_respawn_position_zero.PNG)
