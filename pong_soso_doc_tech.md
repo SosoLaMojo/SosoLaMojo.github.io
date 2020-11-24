@@ -23,6 +23,8 @@ La balle se déplace a la position 0,0 et retourne a sa vitesse de base une fois
 
 ![Ball Collision](SosoLaMojo.github.io/assets/Ball_collision.PNG)
 
+![The ball moves to position 0,0](SosoLaMojo.github.io/assets/Ball_respawn_position_zero.PNG)
+
 ## End of the game
 **The goal** is for each player to lose the **11 lives of the opponent**; lives that are lost when one player fails to return the ball to the other. A life score is displayed for the current game.
 
