@@ -5,7 +5,6 @@
 [https://solsch1990.wixsite.com/website](https://solsch1990.wixsite.com/website)
 
 # Blogpost
-FFFFFFFFFFFFFFFFFFFFFFFFFF
 
 # [Technical Document PongSoso](https://sosolamojo.github.io/pong_soso_doc_tech)
 
