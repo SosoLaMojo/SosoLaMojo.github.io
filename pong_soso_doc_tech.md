@@ -9,6 +9,8 @@ The game PongSoso is a reproduction of the game Pong imagined by Nolan Bushnell 
 ## Paddle
 Two players compete against each other by moving the racket vertically represented by a red or blue line to hit the ball.
 There are limitations at the top and bottom of the screen so that the paddle cannot exit the screen from its ends.
+SosoLaMojo.github.io/assets/GIF/Pong_Soso_Limitation de hauteurPaddle.gif
+
 ## Ball
 There are limitations at the top and bottom of the screen so that the ball cannot exit the screen from its ends.
 
