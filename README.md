@@ -6,6 +6,8 @@
 
 # Blogpost
 
+# [Technical Document PongSoso](https://sosolamojo.github.io/pong_soso_doc_tech)
+
 # [Game Design Document PongSoso](https://sosolamojo.github.io/pong_soso)
 
 # [Blogpost Moteur Physique](https://sosolamojo.github.io/neko_engine)
