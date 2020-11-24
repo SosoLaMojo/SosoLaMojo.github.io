@@ -29,3 +29,5 @@ La balle se déplace a la position 0,0 et retourne a sa vitesse de base une fois
 **The goal** is for each player to lose the **11 lives of the opponent**; lives that are lost when one player fails to return the ball to the other. A life score is displayed for the current game.
 
 ![Player Win](SosoLaMojo.github.io/assets/GIF/Pong_Soso_Win.gif)
+
+![Check Winner](SosoLaMojo.github.io/assets/Check_Winner.PNG)
