@@ -21,6 +21,8 @@ La vitesse de la balle augmente à chaque fois que la balle entre en collision a
 La balle se déplace a la position 0,0 et retourne a sa vitesse de base une fois sortie du terrain.
 ![the ball returns to its base speed](SosoLaMojo.github.io/assets/GIF/Pong_Soso_balle_retourne_velocity_de_base.gif)
 
+![Ball Collision](SosoLaMojo.github.io/assets/Ball_collision.PNG)
+
 ## End of the game
 **The goal** is for each player to lose the **11 lives of the opponent**; lives that are lost when one player fails to return the ball to the other. A life score is displayed for the current game.
 
