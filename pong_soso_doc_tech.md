@@ -17,12 +17,12 @@ There are limitations at the top and bottom of the screen so that the paddle can
 ## Ball
 There are limitations at the top and bottom of the screen so that the ball cannot exit the screen from its ends.
 
-La vitesse de la balle augmente à chaque fois que la balle entre en collision avec un paddle.
+The speed of the ball increases each time the ball collides with a paddle board.
 ![Ball Velocity Increase](SosoLaMojo.github.io/assets/GIF/Pong_Soso_Velocity_balle_augmente.gif)
 
 ![Ball Collision](SosoLaMojo.github.io/assets/Ball_collision.PNG)
 
-La balle se déplace a la position 0,0 et retourne a sa vitesse de base une fois sortie du terrain.
+The ball moves to the 0,0 position and returns to its base speed after leaving the field.
 ![the ball returns to its base speed](SosoLaMojo.github.io/assets/GIF/Pong_Soso_balle_retourne_velocity_de_base.gif)
 
 ![The ball moves to position 0,0](SosoLaMojo.github.io/assets/Ball_respawn_position_zero.PNG)
