@@ -28,7 +28,7 @@ The ball moves to the 0,0 position and returns to its base speed after leaving t
 ![The ball moves to position 0,0](SosoLaMojo.github.io/assets/Ball_respawn_position_zero.PNG)
 
 ## End of the game
-**The goal** is for each player to lose the **11 lives of the opponent**; lives that are lost when one player fails to return the ball to the other. A life score is displayed for the current game.
+**The goal** is for each player to take the **11 lives of the opponent**; lives that are lost when one player fails to return the ball to the other. A life score is displayed at the top of the screen.
 
 ![Player Win](SosoLaMojo.github.io/assets/GIF/Pong_Soso_Win.gif)
 
