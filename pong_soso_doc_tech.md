@@ -27,7 +27,7 @@ When the ball collides with a paddle, I refract the speed of the ball to make it
 The ball moves to the 0,0 position and returns to its base speed after leaving the field and take a life from the player.
 ![the ball returns to its base speed](SosoLaMojo.github.io/assets/GIF/Pong_Soso_balle_retourne_velocity_de_base.gif)
 
-If the ball reaches a certain position in x (ballPoint) I move it to the origin and reset its initial speed.
+If the ball reaches a certain position in x (ballPoint) I move it to the origin, reset its initial speed and invert it.
 ![The ball moves to position 0,0](SosoLaMojo.github.io/assets/Ball_respawn_position_zero.PNG)
 
 ## End of the game
