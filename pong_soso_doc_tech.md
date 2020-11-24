@@ -12,6 +12,8 @@ There are limitations at the top and bottom of the screen so that the paddle can
 
 ![Limitation top and bottom for paddles](SosoLaMojo.github.io/assets/GIF/Pong_Soso_Limitation de hauteurPaddle.gif)
 
+![Limitation and velocity player](SosoLaMojo.github.io/assets/Deplacement_et_limitation_player.PNG)
+
 ## Ball
 There are limitations at the top and bottom of the screen so that the ball cannot exit the screen from its ends.
 
