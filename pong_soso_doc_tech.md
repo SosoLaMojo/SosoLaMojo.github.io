@@ -8,8 +8,9 @@ The game PongSoso is a reproduction of the game Pong imagined by Nolan Bushnell 
 
 ## Paddle
 Two players compete against each other by moving the racket vertically represented by a red or blue line to hit the ball.
-There are limitations at the top and bottom of the screen so that the ball cannot exit the screen from its ends.
+There are limitations at the top and bottom of the screen so that the paddle cannot exit the screen from its ends.
 ## Ball
+There are limitations at the top and bottom of the screen so that the ball cannot exit the screen from its ends.
 
 ## End of the game
 **The goal** is for each player to lose the **11 lives of the opponent**; lives that are lost when one player fails to return the ball to the other. A life score is displayed for the current game.
