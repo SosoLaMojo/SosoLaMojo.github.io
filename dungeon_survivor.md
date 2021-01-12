@@ -87,3 +87,8 @@ Quand il entre en collision avec le joueur il joue son animation d'explosion et 
 Ce fut très compliqué pour nous de réussir à rendre ce projet dans les délais impartis au vu de nos situations personnelles.
 Notre jeu n'est clairement pas aboutit malgré notre envie de bien faire. J'ai tout de même été très contente de travailler avec Bryan qui est un très bon binôme, nous avone eu une très bonne communication.
 En ce qui concerne l'implémentation de la génération procédurale et le pathfinding j'ai été complétement perdue et n'ai pas réussi à atteindre mes objectifs.
+
+
+
+
+##### [Return to home page](https://sosolamojo.github.io/)
