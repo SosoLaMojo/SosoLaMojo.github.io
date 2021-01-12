@@ -33,3 +33,7 @@ The player can change the direction of the ball based on the angle at which the 
 - Challenge 1: Ball mechanics
 - Challenge 2: Ball rebound
 - Challenge 3: Use of rollback for the 11 rounds of the game
+
+
+
+##### [Return to home page](https://sosolamojo.github.io/)
