@@ -29,3 +29,5 @@ Ensuite elle va appeler la fonction **CheckHierarchy()** qui va quant a elle par
 La fonction **CheckHierarchy()** se rappel elle-même dans une boucle pour chaque enfant du GameObject. 
 
 La fonction **SaveHierarchy()** va pour finir appeler la fonction **WriteToFile()** qui va créer le fichier Json.
+
+![Diagramme](SosoLaMojo.github.io/assets/PNG/Tool_Scene_Exporter/Diagramme.png)
