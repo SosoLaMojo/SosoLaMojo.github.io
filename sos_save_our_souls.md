@@ -9,3 +9,7 @@
 ## Points Négatifs
 * Manque de temps à consacré au jeu au début du développement du a la maladie
 * Reçu des assets assez tardif, il nous en manque
+
+
+
+##### [Return to home page](https://sosolamojo.github.io/)
