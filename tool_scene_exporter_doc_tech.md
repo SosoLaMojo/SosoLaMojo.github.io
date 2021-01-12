@@ -17,6 +17,6 @@ Le bouton **Ignore object** ajoute à une liste de string les noms des objets ig
 
 Le bouton **Allow object** Remove les objets de la liste d'objets à ignorer.
 
-Le bouton **Export to Json** exporte les GameObjects en format Json, comportant les variables demandées des components voulus.
+Le bouton **Export to Json** exporte les GameObjects en format Json, comportant les variables demandées des components voulus. Ce bouton appel la fonction SaveHierarchy().
 ![Design_Window_Tool](SosoLaMojo.github.io/assets/PNG/Tool_Scene_Exporter/Design_Window.PNG)
 
