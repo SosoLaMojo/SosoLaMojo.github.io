@@ -13,7 +13,7 @@ To open the SceneExporter tool window press Tools on the taskbar and then Scene 
 Nous avons utilisé les fonctions EditorUnity pour créer la fenêtre, les boutons et les labels. La fenêtre contient trois boutons: **Ignore object**, **Allow object** et **Export to Json**.
 ![Open_Window_Tool](SosoLaMojo.github.io/assets/GIF/Open_Window.gif)
 
-Le bouton **Ignore object** ajoute à une liste les noms des objets ignorés.
+Le bouton **Ignore object** ajoute à une liste de string les noms des objets ignorés.
 
 Le bouton **Allow object** Remove les objets de la liste d'objets à ignorer.
 
