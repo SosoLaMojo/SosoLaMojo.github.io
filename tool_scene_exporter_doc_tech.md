@@ -31,3 +31,11 @@ The function **CheckHierarchy()** remembers itself in a loop for each child of t
 The function **SaveHierarchy()** will finally call the function **WriteToFile()** which will create the Json file.
 
 ![Diagramme](SosoLaMojo.github.io/assets/PNG/Tool_Scene_Exporter/Diagramme.png)
+
+
+## Challenges
+
+Pour ce projet les challenges ont été:
+Apprendre à utiliser GUI de Unity pour la création de la fenêtre, les boutons et les labels
+Apprendre à formater un Json
+Apprendre à faire le bon format Json avec le JsonValidator du projet
