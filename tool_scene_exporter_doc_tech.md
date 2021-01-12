@@ -9,3 +9,5 @@ Le but de cet outil est d'exporter les GameObjects contenus dans leurs scènes U
 ## Fonctionnement
 
 ![Open_Window_Tool](SosoLaMojo.github.io/assets/GIF/Open_Window.gif)
+
+![Design_Window_Tool](SosoLaMojo.github.io/assets/PNG/Tool_Scene_Exporter/Design_Window.PNG)
