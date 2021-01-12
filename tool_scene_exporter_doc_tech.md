@@ -35,7 +35,7 @@ The function **SaveHierarchy()** will finally call the function **WriteToFile()*
 
 ## Challenges
 
-Pour ce projet les challenges ont été:
-* Apprendre à utiliser GUI de Unity pour la création de la fenêtre, les boutons et les labels
-* Apprendre à formater un Json
-* Apprendre à faire le bon format Json avec le JsonValidator du projet
+For this project the challenges were:
+* Learn how to use Unity's GUI for window creation, buttons and labels
+* Learn how to format a Json
+* Learn how to make the right Json format with the project's JsonValidator
