@@ -9,6 +9,12 @@ Le but de cet outil est d'exporter les GameObjects contenus dans leurs scènes U
 
 ## Fonctionnement
 
+To open the SceneExporter tool window press Tools on the taskbar and then Scene Exporter. You can then place it wherever you want in the Unity interface.
+Nous avons utilisé les fonctions EditorUnity pour créer la fenêtre, les boutons et les labels. La fenêtre contient trois boutons: Ignore object, Allow object et Export to Json.
 ![Open_Window_Tool](SosoLaMojo.github.io/assets/GIF/Open_Window.gif)
 
+Le bouton Ignore object ajoute à une liste les noms des objets ignorés.
+Le bouton Allow object Remove les objets de la liste d'objets à ignorer.
+Le bouton Export to Json exporte les GameObjects en format Json, comportant les variables demandées des components voulus.
 ![Design_Window_Tool](SosoLaMojo.github.io/assets/PNG/Tool_Scene_Exporter/Design_Window.PNG)
+
