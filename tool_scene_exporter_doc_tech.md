@@ -1,33 +1,33 @@
 # Technical Document *Scene Exporter* Tool
 
 ## Introduction
-Le tool Scene Exporter a été crée dans le cadre du module 5100. L'objectif est de créer un outil pour aider les étudiants en Games Programming de 3ème année dans le développement de leur projet de jeu AerRacer.
-Ce tool a été conçu en binôme avec mon camarade de classe William.[https://worgaros.github.io/](https://worgaros.github.io/)
+The Scene Exporter tool was created as part of the 5100 module. The objective is to create a tool to help 3rd year Games Programming students in the development of their AerRacer game project.
+This tool was designed in tandem with my classmate William.[https://worgaros.github.io/](https://worgaros.github.io/)
 
-## But de tool
-Le but de cet outil est d'exporter les GameObjects contenus dans leurs scènes Unity. Ces GameObjects seront exportés avec certains de leurs composants au format Json afin d'utiliser ce fichier dans le NekoEngine.
+## Goal of tool
+The goal of this tool is to export the GameObjects contained in their Unity scenes. These GameObjects will be exported with some of their components in Json format in order to use this file in the NekoEngine.
 
-## Fonctionnement
+## How it works
 
 To open the SceneExporter tool window press Tools on the taskbar and then Scene Exporter. You can then place it wherever you want in the Unity interface.
-Nous avons utilisé les fonctions EditorUnity pour créer la fenêtre, les boutons et les labels. La fenêtre contient trois boutons: **Ignore object**, **Allow object** et **Export to Json**.
+We used the EditorUnity functions to create the window, buttons and labels. The window contains three buttons: **Ignore object**, **Allow object** and **Export to Json**.
 ![Open_Window_Tool](SosoLaMojo.github.io/assets/GIF/Open_Window.gif)
 
-Le bouton **Ignore object** ajoute à une liste de string les noms des objets ignorés.
+The button **Ignore object** adds to a string list the names of the ignored objects.
 
-Le bouton **Allow object** Remove les objets de la liste d'objets à ignorer.
+The button **Allow object** removes objects from the ignore list.
 
-Le bouton **Export to Json** exporte les GameObjects en format Json, comportant les variables demandées des components voulus. Ce bouton appel la fonction SaveHierarchy().
+The button **Export to Json** exports the GameObjects in Json format, with the requested variables of the desired components. This button calls the SaveHierarchy() function.
 ![Design_Window_Tool](SosoLaMojo.github.io/assets/PNG/Tool_Scene_Exporter/Design_Window.PNG)
 
-La fonction **SaveHierarchy()** récupère le nom de la scène active, la liste des tags et la liste des layers. 
+The function **SaveHierarchy()** retrieves the name of the active scene, the list of tags and the list of layers. 
 
-Puis elle va appeler les fonctions **GetAllObjectsOnlyInScene()** pour ignorer les GameObjects cachés contenus dans la scène. 
+Then it will call the functions **GetAllObjectsOnlyInScene()** to ignore the hidden GameObjects contained in the scene. 
 
-Ensuite elle va appeler la fonction **CheckHierarchy()** qui va quant a elle parcourir toute la Hierarchy de la scène active pour récupérer pour chaque GameObject et leurs enfants: nom, instanceID, si l'objet est actif ou non, le layer et tag associé ainsi que toutes les variables des components voulus en faisant appel aux fonctions **Populate()** que contient chaque class de component. 
+Then it will call the function **CheckHierarchy()** which will browse the whole Hierarchy of the active scene to retrieve for each GameObject and their children: name, instanceID, if the object is active or not, the associated layer and tag as well as all the variables of the desired components by using functions **Populate()** that each component class contains. 
 
-La fonction **CheckHierarchy()** se rappel elle-même dans une boucle pour chaque enfant du GameObject. 
+The function **CheckHierarchy()** remembers itself in a loop for each child of the GameObject. 
 
-La fonction **SaveHierarchy()** va pour finir appeler la fonction **WriteToFile()** qui va créer le fichier Json.
+The function **SaveHierarchy()** will finally call the function **WriteToFile()** which will create the Json file.
 
 ![Diagramme](SosoLaMojo.github.io/assets/PNG/Tool_Scene_Exporter/Diagramme.png)
