@@ -39,3 +39,8 @@ If the ball reaches a certain position in x (ballPoint) I move it to the origin,
 
 I check the lives of the players and when one of them reaches 0, there is only 1 player left alive. The last player alive becomes the winner of the game.
 ![Check Winner](SosoLaMojo.github.io/assets/Check_Winner.PNG)
+
+
+
+
+##### [Return to home page](https://sosolamojo.github.io/)
