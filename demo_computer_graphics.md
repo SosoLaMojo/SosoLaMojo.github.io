@@ -16,7 +16,7 @@ Pour cette démo juste une seule lumière était indispensable, celle émanent d
 ![PointLightDemo](../assets/PointLight3.png)
 
 ### Bloom
-Pour créer un effet de bloom, les parties claire de la texture diffuse du soleil ont été écrites sur une texture séparée qui a ensuite été floutée pour finir par être combiné avec le résultat de la passe finale en passant par le framebuffer.
+Pour créer un effet de bloom, les parties claires de la texture diffuse du soleil ont été écrites sur une texture séparée qui a ensuite été floutée pour finir par être combiné avec le résultat de la passe finale en passant par le framebuffer.
 
 ![Bloom Sun](../assets/Sun2.PNG)
 ![Bloom Sun](../assets/Sun1.PNG)
