@@ -1,6 +1,6 @@
 # Introduction
 
-Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche de créer une demo non jouable avec OpenGL. Mon choix s'est oreinté vers un système solaire.
+Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche de créer une demo non jouable avec OpenGL. Mon choix s'est orienté vers un système solaire.
 ![Overview Demo](SosoLaMojo.github.io/assets/GIF/Demo1.gif)
 
 # Samples utilisés
