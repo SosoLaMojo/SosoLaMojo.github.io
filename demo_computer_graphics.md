@@ -6,13 +6,20 @@ Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche 
 
 ![Overview Demo](../assets/GIF/Demo1.gif)
 
-## Planètes
+## Rendu 3D
+## Planètes + Soleil
+TODO Faire gif avec chaque planète qui se dessine l'une après l'autre
+Le soleil se trouve au centre de la scène (0,0,0) et les planète ses dessine les unes après les autres a partir du centre de cette scène. Les planètes ont chacune une texture color et une normale qui sont appliquées sur une sphère-
+TODO Faire un schéma mesh + color + normal => rendu final terre
 
 ## Asteroids
-
 ### Instancing
+La technique utilisée pour le soleil et les planètes n'est pas appropriée pour les deux ceintures d'asteroids, dessiner les asteroids les uns aprés les autres serait trop couteux point de vue performances. La solution la plus sensée est d'utiliser l'instancing qui consiste a dessiner plusieurs objets dans un seul drawcall par le GPU sans avoir a communiquer de nouveau avec le CPU pour chaque objet. Dans notre cas cela permet d'envoyer qu'une seule texture pour la couleur et qu'un seul mesh pour tout les asteroides.
+
+TODO Faire un schéma mesh + color => rendu final astéroides
+
 ### Frustum Culling
-Le frustum Culling consiste à créer uniquement les objet qui se trouve dans le champ de vision de la caméra en utilisant un frustum. Cette technique a été utilisé pour l'instancing des asteroids étant donné qu'il y en a 7000 dans la scène et qu'il ne sont pas forcément tous visibles en même temps.
+Le Frustum Culling consiste à dessiner uniquement les objets qui se trouvent dans le champ de vision de la caméra en utilisant un Frustum. Cette technique a été utilisé pour l'instancing des asteroids étant donné qu'il y en a 7000 dans la scène et qu'il ne sont pas forcément tous visibles en même temps.
 
 ![FrustumCulling Schema](../assets/FrustumCulling.jpg)
 
@@ -20,21 +27,42 @@ Pour démontrer que le Frustum Culling utilisé fonctionne, la taille du Frustum
 
 ![FrustumCulling Demo](../assets/GIF/FrustumCulling.gif)
 
+## Backface Culling
+Le backface culling est une technique qui permet de ne pas rendre ce qui est derrière un objet (les faces non visibles). Avec un objet transparent le backface culling n'est pas recommandé afin de pouvoir voir l'avant et l'arrière de l'objet.
+N'ayant pas d'objets transparent dans la scène le backface culling offre un gain de performance pour ne pas afficher les faces se trouvants à l'arrière des planètes, du soleil et des asteroides.
+TODO mettre une image
+
 ## Light
 ### Point Light
-Pour cette démo juste une seule lumière était indispensable, celle émanent du soleil. Le choix de la point light s'est imposée. Une point light est très similaire à une directionnal light, la différence est qu'on ne donne pas une direction au vertex shader mais une position et que le vertex shader doit calculer la direction de la lumière pour chaque vertex de la scène. Pour le fragment shader la petite différence est qu'il reçoit une direction de lumière interpolée. Le type de lumière qui a été utilisée dans cette demo est le Blinn-Phong.
+Pour cette démo juste une seule lumière était indispensable, celle émanent du soleil. Le choix de la point light s'est imposée puisque c'est une lumière proche de celle du soleil. Comme c'est du forward rendering qui a été utilisé dans la scène, il suffit d'envoyer la position de la source umineuse à chaque fragement shader, les calculs de lumière ainsi que son atténuation sont directement calculés dans les shaders. Pour rappel le forward rendering est le fait de rendre chaque objet les uns-après les autres et de calculer individuellement la lumière pour eux. Le modèle de lumière qui est utilisé est celui de Blinn-Phong, il a été choisis pour sa simplicité à être mis en place mais aussi l'avantage d'avoir besoin de moins de textures qu'une solution comme du PBR (Lien pour plus d'information sur ce modèle de lumière ici)
+
 ![PointLightSchema](../assets/PointLight.PNG)
 ![PointLightDemo](../assets/PointLight3.png)
 
 Le soleil a un fragment shader de lumière différent des autres planètes et des asteroids qui ne calcul pas la lumière de facon a ne pas être illuminé. Parce que la point light se trouve au centre du soleil, il avait donc une absence de lumière.
 
 ### Normal Mapping
+Les planètes sont des objets simples spheres sans reliefs, c'est un avantage et un inconvénients. L'avantage est que c'est plus léger pour la mémoire et donc plus rapide a charger. Le désavantage c'est qu'on perd la profondeur sur les objets (exemple on ne voit pas les cratères).
+Une solution a ca c'est le normal mapping. Il consiste a donner une illusion de reliefs sur des objets en utilisant une texture suppléementaire. Cette texture va remplacer les normales du mesh et avoir une plus grande définition et donner cette impression de reliefs lorsque la lumière va créer des zones non illuminées sur l'objet. Cette technique n'a pas été utile pour les asteroids au vu du fait qu'il y avait déja assez de détails dans le mesh.
+
+TODO Mettre image pour la comparaison avec et sans normal mapping
 
 ### Bloom
 Pour créer un effet de bloom, les parties claires de la texture diffuse du soleil ont été écrites sur une texture séparée qui a ensuite été floutée avec du mipmapping pour finir par être combiné avec le résultat de la passe finale en passant par le framebuffer.
 
-![Bloom Sun](../assets/Sun2.PNG)
+TODO faire un montage avec ses images:
+sans bloom:
 ![Bloom Sun](../assets/Sun1.PNG)
+
+le bloom:
+![Bloom Sun](../assets/Sun2.PNG)
+
+combinaison des deux:
+![Bloom Sun](../assets/Sun3.PNG)
+
+### Tone mapping
+Le problème qui survient en rajoutant du bloom, est que par défaut dans le framebuffer les couleurs sont contenus entre 0 et 1, c'est ce qu'on appel du LDR. Pour pallier a ce problème on utilise du HDR pour ne pas limiter les couleurs entre 0 et 1. Par contre comme nos écrans sont en LDR, nous devons repasser en LDR en utilisant du tone mapping, avec par exemple la technique de Reihnard, utilisée dans cette demo.
+TODO mettre une image
 
 ## Skybox
 ### Fond étoilé
