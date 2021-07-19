@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche de créer une demo non jouable avec OpenGL. Mon choix s'est orienté vers un système solaire.
+Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche de créer une demo non jouable avec OpenGL en utilisant plusieurs techniques de rendus différents. Mon choix s'est orienté vers un système solaire.
 
 ![Overview Demo](../assets/GIF/Demo1.gif)
 
@@ -35,7 +35,7 @@ Pour créer un effet de bloom, les parties claire de la texture diffuse du solei
 
 ### Instancing
 ### Frustum Culling
-Le frustum Culling consiste à créer uniquement les objet qui se trouve dans le champ de vision de la caméra et a été utilisé pour l'instancing des asteroids étant donné qu'il y en a 7000 dans la scène et qu'il ne sont pas forcément tous visibles en même temps.
+Le frustum Culling consiste à créer uniquement les objet qui se trouve dans le champ de vision de la caméra en utilisant un frustum. Cette technique a été utilisé pour l'instancing des asteroids étant donné qu'il y en a 7000 dans la scène et qu'il ne sont pas forcément tous visibles en même temps.
 ![FrustumCulling Schema](../assets/FrustumCulling.jpg)
 Pour démontrer que le Frustum Culling utilisé fonction, la taille du Frustum à été réduite dans l'exemple ci-dessous:
 ![FrustumCulling Demo](../assets/GIF/FrustumCulling.gif)
