@@ -1,4 +1,4 @@
-# Introduction
+###### Introduction
 
 Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche de créer une demo non jouable avec OpenGL. Mon choix s'est orienté vers un système solaire.
 ![Overview Demo](../assets/GIF/Demo1.gif)
