@@ -21,10 +21,9 @@ Voici la liste des samples utilisés pour ce projet
 
 ## Sun
 ### Point Light
-Pour cette démo juste une seule lumière était indispensable, celle émanent du soleil. Le choix de la point light s'est imposée. Une point light est très similaire à une directionnal light, la différence est qu'on ne donne pas une direction au vertex shader mais une position et que le vertex shader doit calculer la direction de la lumière pour chaque vertex de la scène. 
-![PointLight](../assets/PointLight.PNG)
-
-Pour le fragment shader la petite différence qu'il reçoit une direction de lumière interpolée.
+Pour cette démo juste une seule lumière était indispensable, celle émanent du soleil. Le choix de la point light s'est imposée. Une point light est très similaire à une directionnal light, la différence est qu'on ne donne pas une direction au vertex shader mais une position et que le vertex shader doit calculer la direction de la lumière pour chaque vertex de la scène. Pour le fragment shader la petite différence qu'il reçoit une direction de lumière interpolée.
+![PointLightSchema](../assets/PointLight.PNG)
+![PointLightDemo](../assets/PointLight3.png)
 
 ### Bloom
 Pour créer un effet de bloom, les parties claire de la texture diffuse du soleil ont été écrites sur une texture séparée qui a ensuite été floutée pour finir par être combiné avec le résultat de la passe finale en passant par le framebuffer.
