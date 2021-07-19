@@ -61,6 +61,7 @@ le bloom:
 ![Bloom Sun](../assets/Sun2.PNG)
 
 combinaison des deux:
+
 ![Bloom Sun](../assets/Sun3.PNG)
 
 ### Tone mapping
