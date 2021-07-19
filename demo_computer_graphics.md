@@ -36,14 +36,18 @@ Pour créer un effet de bloom, les parties claire de la texture diffuse du solei
 ### Instancing
 ### Frustum Culling
 Le frustum Culling consiste à créer uniquement les objet qui se trouve dans le champ de vision de la caméra en utilisant un frustum. Cette technique a été utilisé pour l'instancing des asteroids étant donné qu'il y en a 7000 dans la scène et qu'il ne sont pas forcément tous visibles en même temps.
+
 ![FrustumCulling Schema](../assets/FrustumCulling.jpg)
+
 Pour démontrer que le Frustum Culling utilisé fonction, la taille du Frustum à été réduite dans l'exemple ci-dessous:
+
 ![FrustumCulling Demo](../assets/GIF/FrustumCulling.gif)
+
 ## Fond étoilé
 ### Skybox
 Une skybox est un procédé graphique permettant de donner, dans un espace tridimensionnel, l'illusion que cet espace est plus étendu qu'il ne l'est réellement. Pour ce faire nous utilisons une texture qui contient plusieurs faces et les assemblons pour créer une énorme boite qui contiendra les objets de la scène.
 
-![Skybox exemple](../assets/Exemple_Skybox.png)
+![Skybox exemple](../assets/Example_Skybox.png)
 
 # Conclusion
 
