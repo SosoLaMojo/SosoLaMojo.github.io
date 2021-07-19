@@ -1,9 +1,9 @@
-### Introduction
+## Introduction
 
 Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche de créer une demo non jouable avec OpenGL. Mon choix s'est oreinté vers un système solaire.
 ![Overview Demo](SosoLaMojo.github.io/assets/GIF/Demo1.gif)
 
-### Samples utilisés
+## Samples utilisés
 
 Voici la liste des samples utilisés pour ce projet
 
@@ -14,20 +14,20 @@ Voici la liste des samples utilisés pour ce projet
 * Point Light
 * Bloom
 
-## Planètes
+### Planètes
 # Normal Mapping
 
-## Sun
+### Sun
 # Point Light
 # Bloom
 
-## Asteroids
+### Asteroids
 # Instancing
 # Frustum Culling
 
-## Fond étoilé
+### Fond étoilé
 # Skybox
 
-### Conclusion
+## Conclusion
 
 ##### [Return to home page](https://sosolamojo.github.io/)
