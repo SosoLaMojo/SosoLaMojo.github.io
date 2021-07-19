@@ -18,4 +18,4 @@
 
 # [Post-mortem S.O.S : Save Our Souls](https://sosolamojo.github.io/sos_save_our_souls)
 
-# [Demo OpenGL System Solar](https://sosolamojo.github.io/sos_save_our_souls)
+# [Demo OpenGL System Solar](https://sosolamojo.github.io/demo_computer_graphics)
