@@ -11,14 +11,14 @@ The goal of this tool is to export the GameObjects contained in their Unity scen
 
 To open the SceneExporter tool window press Tools on the taskbar and then Scene Exporter. You can then place it wherever you want in the Unity interface.
 We used the EditorUnity functions to create the window, buttons and labels. The window contains three buttons: **Ignore object**, **Allow object** and **Export to Json**.
-![Open_Window_Tool](SosoLaMojo.github.io/assets/GIF/Open_Window.gif)
+![Open_Window_Tool](../assets/GIF/Open_Window.gif)
 
 The button **Ignore object** adds to a string list the names of the ignored objects.
 
 The button **Allow object** removes objects from the ignore list.
 
 The button **Export to Json** exports the GameObjects in Json format, with the requested variables of the desired components. This button calls the SaveHierarchy() function.
-![Design_Window_Tool](SosoLaMojo.github.io/assets/PNG/Tool_Scene_Exporter/Design_Window.PNG)
+![Design_Window_Tool](../assets/PNG/Tool_Scene_Exporter/Design_Window.PNG)
 
 The function **SaveHierarchy()** retrieves the name of the active scene, the list of tags and the list of layers. 
 
@@ -30,7 +30,7 @@ The function **CheckHierarchy()** remembers itself in a loop for each child of t
 
 The function **SaveHierarchy()** will finally call the function **WriteToFile()** which will create the Json file.
 
-![Diagramme](SosoLaMojo.github.io/assets/PNG/Tool_Scene_Exporter/Diagramme.png)
+![Diagramme](../assets/PNG/Tool_Scene_Exporter/Diagramme.png)
 
 
 ## Challenges
