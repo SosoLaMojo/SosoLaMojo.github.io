@@ -66,7 +66,7 @@ combinaison des deux:
 
 ### Tone mapping
 Le problème qui survient en rajoutant du bloom, est que par défaut dans le framebuffer les couleurs sont contenus entre 0 et 1, c'est ce qu'on appel du LDR. Pour pallier a ce problème on utilise du HDR pour ne pas limiter les couleurs entre 0 et 1. Par contre comme nos écrans sont en LDR, nous devons repasser en LDR en utilisant du tone mapping, avec par exemple la technique de Reihnard, utilisée dans cette demo.
-TODO mettre une image
+![Tone Mapping](../assets/hdr_exposure_tone_mapping.png)
 
 ## Skybox
 ### Fond étoilé
