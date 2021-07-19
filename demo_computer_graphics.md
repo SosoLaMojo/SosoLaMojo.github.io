@@ -12,7 +12,8 @@ Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche 
 
 Le soleil se trouve au centre de la scène (0,0,0) et les planète ses dessine les unes après les autres a partir du centre de cette scène. Les planètes ont chacune une texture color et une normale qui sont appliquées sur une sphère.
 
-TODO Faire un schéma mesh + color + normal => rendu final terre
+![Texture Planet Venus](../assets/Montage_normal_mapping.PNG)
+
 
 ## Asteroids
 ### Instancing
