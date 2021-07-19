@@ -8,7 +8,8 @@ Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche 
 
 ## Rendu 3D
 ## Planètes + Soleil
-TODO Faire gif avec chaque planète qui se dessine l'une après l'autre
+![SpawnPlanets](../assets/GIF/spawnPlanets.gif)
+
 Le soleil se trouve au centre de la scène (0,0,0) et les planète ses dessine les unes après les autres a partir du centre de cette scène. Les planètes ont chacune une texture color et une normale qui sont appliquées sur une sphère.
 
 TODO Faire un schéma mesh + color + normal => rendu final terre
