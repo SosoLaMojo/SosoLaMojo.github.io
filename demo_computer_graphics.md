@@ -23,13 +23,13 @@ Voici la liste des samples utilisés pour ce projet
 ## Sun
 ### Point Light
 ### Bloom
-
-Pour créer l'effet flouté de des point clair du soleil un bloom est effectué en passant par le framebuffer.
+Pour créer un effet de bloom, les parties claire de la texture diffuse du soleil ont été écrites sur une texture séparée qui a ensuite été floutée pour finir par être combiné avec le résultat de la passe finale en passant par le framebuffer.
 
 ![Bloom Sun](../assets/GIF/Sun1.gif)
 ![Bloom Sun](../assets/GIF/Sun2.gif)
 
 ## Asteroids
+
 ### Instancing
 ### Frustum Culling
 
