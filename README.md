@@ -6,6 +6,8 @@
 
 # Blogpost
 
+# [Demo OpenGL System Solar](https://sosolamojo.github.io/demo_computer_graphics)
+
 # [Technical Document Tool SceneExporter](https://sosolamojo.github.io/tool_scene_exporter_doc_tech)
 
 # [Technical Document PongSoso](https://sosolamojo.github.io/pong_soso_doc_tech)
@@ -17,5 +19,3 @@
 # [Blogpost du jeu Dungeon Survivor](https://sosolamojo.github.io/dungeon_survivor)
 
 # [Post-mortem S.O.S : Save Our Souls](https://sosolamojo.github.io/sos_save_our_souls)
-
-# [Demo OpenGL System Solar](https://sosolamojo.github.io/demo_computer_graphics)
