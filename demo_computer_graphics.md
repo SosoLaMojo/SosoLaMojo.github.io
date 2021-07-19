@@ -38,7 +38,7 @@ Pour créer un effet de bloom, les parties claire de la texture diffuse du solei
 Le frustum Culling consiste à créer uniquement les objet qui se trouve dans le champ de vision de la caméra et a été utilisé pour l'instancing des asteroids étant donné qu'il y en a 7000 dans la scène et qu'il ne sont pas forcément tous visibles en même temps.
 ![FrustumCulling Schema](../assets/FrustumCulling.jpg)
 Pour démontrer que le Frustum Culling utilisé fonction, la taille du Frustum à été réduite dans l'exemple ci-dessous:
-![FrustumCulling Demo](../assets/FrustumCulling.gif)
+![FrustumCulling Demo](../assets/GIF/FrustumCulling.gif)
 ## Fond étoilé
 ### Skybox
 
