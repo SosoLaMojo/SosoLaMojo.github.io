@@ -39,7 +39,7 @@ Le frustum Culling consiste à créer uniquement les objet qui se trouve dans le
 
 ![FrustumCulling Schema](../assets/FrustumCulling.jpg)
 
-Pour démontrer que le Frustum Culling utilisé fonction, la taille du Frustum à été réduite dans l'exemple ci-dessous:
+Pour démontrer que le Frustum Culling utilisé fonctionne, la taille du Frustum à été réduite dans l'exemple ci-dessous:
 
 ![FrustumCulling Demo](../assets/GIF/FrustumCulling.gif)
 
