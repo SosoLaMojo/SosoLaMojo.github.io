@@ -16,7 +16,7 @@ Nous pouvons construire un quad-treee à partir d'une zone bidimensionnelle en u
 
 Voici un exemple d'implémentation des quatre cases à créer:
 
-![Quad-tree](SosoLaMojo.github.io/assets/GIF/Quad-Tree.PNG)
+![Quad-tree](../assets/GIF/Quad-Tree.PNG)
 
 ## Conclusion
 
