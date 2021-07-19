@@ -30,7 +30,8 @@ Pour démontrer que le Frustum Culling utilisé fonctionne, la taille du Frustum
 ## Backface Culling
 Le backface culling est une technique qui permet de ne pas rendre ce qui est derrière un objet (les faces non visibles). Avec un objet transparent le backface culling n'est pas recommandé afin de pouvoir voir l'avant et l'arrière de l'objet.
 N'ayant pas d'objets transparent dans la scène le backface culling offre un gain de performance pour ne pas afficher les faces se trouvants à l'arrière des planètes, du soleil et des asteroides.
-TODO mettre une image
+
+![PointLightDemo](../assets/backfaceCulling.png)
 
 ## Light
 ### Point Light
