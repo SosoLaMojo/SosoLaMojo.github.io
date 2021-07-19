@@ -41,6 +41,9 @@ Pour démontrer que le Frustum Culling utilisé fonction, la taille du Frustum �
 ![FrustumCulling Demo](../assets/GIF/FrustumCulling.gif)
 ## Fond étoilé
 ### Skybox
+Une skybox est un procédé graphique permettant de donner, dans un espace tridimensionnel, l'illusion que cet espace est plus étendu qu'il ne l'est réellement. Pour ce faire nous utilisons une texture qui contient plusieurs faces et les assemblons pour créer une énorme boite qui contiendra les objets de la scène.
+
+![Skybox exemple](../assets/Exemple_Skybox.png)
 
 # Conclusion
 
