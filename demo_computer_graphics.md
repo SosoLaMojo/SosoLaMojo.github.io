@@ -1,10 +1,12 @@
-# Introduction
+# Demo OpenGL System Solar
+
+## Introduction
 
 Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche de créer une demo non jouable avec OpenGL. Mon choix s'est orienté vers un système solaire.
 
 ![Overview Demo](../assets/GIF/Demo1.gif)
 
-# Samples utilisés
+## Samples utilisés
 
 Voici la liste des samples utilisés pour ce projet
 
@@ -21,6 +23,11 @@ Voici la liste des samples utilisés pour ce projet
 ## Sun
 ### Point Light
 ### Bloom
+
+Pour créer l'effet flouté de des point clair du soleil un bloom est effectué en passant par le framebuffer.
+
+![Bloom Sun](../assets/GIF/Sun1.gif)
+![Bloom Sun](../assets/GIF/Sun2.gif)
 
 ## Asteroids
 ### Instancing
