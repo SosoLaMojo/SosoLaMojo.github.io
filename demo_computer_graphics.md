@@ -25,8 +25,8 @@ Voici la liste des samples utilisés pour ce projet
 ### Bloom
 Pour créer un effet de bloom, les parties claire de la texture diffuse du soleil ont été écrites sur une texture séparée qui a ensuite été floutée pour finir par être combiné avec le résultat de la passe finale en passant par le framebuffer.
 
-![Bloom Sun](../assets/Sun1.png)
-![Bloom Sun](../assets/Sun2.png)
+![Bloom Sun](../assets/Sun1.PNG)
+![Bloom Sun](../assets/Sun2.PNG)
 
 ## Asteroids
 
