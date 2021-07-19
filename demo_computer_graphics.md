@@ -9,7 +9,8 @@ Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche 
 ## Rendu 3D
 ## Planètes + Soleil
 TODO Faire gif avec chaque planète qui se dessine l'une après l'autre
-Le soleil se trouve au centre de la scène (0,0,0) et les planète ses dessine les unes après les autres a partir du centre de cette scène. Les planètes ont chacune une texture color et une normale qui sont appliquées sur une sphère-
+Le soleil se trouve au centre de la scène (0,0,0) et les planète ses dessine les unes après les autres a partir du centre de cette scène. Les planètes ont chacune une texture color et une normale qui sont appliquées sur une sphère.
+
 TODO Faire un schéma mesh + color + normal => rendu final terre
 
 ## Asteroids
@@ -31,7 +32,7 @@ Pour démontrer que le Frustum Culling utilisé fonctionne, la taille du Frustum
 Le backface culling est une technique qui permet de ne pas rendre ce qui est derrière un objet (les faces non visibles). Avec un objet transparent le backface culling n'est pas recommandé afin de pouvoir voir l'avant et l'arrière de l'objet.
 N'ayant pas d'objets transparent dans la scène le backface culling offre un gain de performance pour ne pas afficher les faces se trouvants à l'arrière des planètes, du soleil et des asteroides.
 
-![PointLightDemo](../assets/backfaceCulling.png)
+![BackFace Culling](../assets/backfaceCulling.png)
 
 ## Light
 ### Point Light
@@ -46,7 +47,8 @@ Le soleil a un fragment shader de lumière différent des autres planètes et de
 Les planètes sont des objets simples spheres sans reliefs, c'est un avantage et un inconvénients. L'avantage est que c'est plus léger pour la mémoire et donc plus rapide a charger. Le désavantage c'est qu'on perd la profondeur sur les objets (exemple on ne voit pas les cratères).
 Une solution a ca c'est le normal mapping. Il consiste a donner une illusion de reliefs sur des objets en utilisant une texture suppléementaire. Cette texture va remplacer les normales du mesh et avoir une plus grande définition et donner cette impression de reliefs lorsque la lumière va créer des zones non illuminées sur l'objet. Cette technique n'a pas été utile pour les asteroids au vu du fait qu'il y avait déja assez de détails dans le mesh.
 
-TODO Mettre image pour la comparaison avec et sans normal mapping
+![Normal mapping compare](../assets/normal_mapping_compare.png)
+
 
 ### Bloom
 Pour créer un effet de bloom, les parties claires de la texture diffuse du soleil ont été écrites sur une texture séparée qui a ensuite été floutée avec du mipmapping pour finir par être combiné avec le résultat de la passe finale en passant par le framebuffer.
