@@ -2,24 +2,11 @@
 
 ## Introduction
 
-Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche de créer une demo non jouable avec OpenGL en utilisant plusieurs techniques de rendus différents. Mon choix s'est orienté vers un système solaire.
+Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche de créer une demo non jouable avec OpenGL en utilisant plusieurs techniques différentes. Mon choix s'est orienté vers un système solaire.
 
 ![Overview Demo](../assets/GIF/Demo1.gif)
 
 ## Planètes
-### Normal Mapping
-
-## Sun
-### Point Light
-Pour cette démo juste une seule lumière était indispensable, celle émanent du soleil. Le choix de la point light s'est imposée. Une point light est très similaire à une directionnal light, la différence est qu'on ne donne pas une direction au vertex shader mais une position et que le vertex shader doit calculer la direction de la lumière pour chaque vertex de la scène. Pour le fragment shader la petite différence est qu'il reçoit une direction de lumière interpolée. Le type de lumière qui a été utilisée dans cette demo est le Blinn-Phong.
-![PointLightSchema](../assets/PointLight.PNG)
-![PointLightDemo](../assets/PointLight3.png)
-
-### Bloom
-Pour créer un effet de bloom, les parties claires de la texture diffuse du soleil ont été écrites sur une texture séparée qui a ensuite été floutée pour finir par être combiné avec le résultat de la passe finale en passant par le framebuffer.
-
-![Bloom Sun](../assets/Sun2.PNG)
-![Bloom Sun](../assets/Sun1.PNG)
 
 ## Asteroids
 
@@ -33,8 +20,24 @@ Pour démontrer que le Frustum Culling utilisé fonctionne, la taille du Frustum
 
 ![FrustumCulling Demo](../assets/GIF/FrustumCulling.gif)
 
-## Fond étoilé
-### Skybox
+## Light
+### Point Light
+Pour cette démo juste une seule lumière était indispensable, celle émanent du soleil. Le choix de la point light s'est imposée. Une point light est très similaire à une directionnal light, la différence est qu'on ne donne pas une direction au vertex shader mais une position et que le vertex shader doit calculer la direction de la lumière pour chaque vertex de la scène. Pour le fragment shader la petite différence est qu'il reçoit une direction de lumière interpolée. Le type de lumière qui a été utilisée dans cette demo est le Blinn-Phong.
+![PointLightSchema](../assets/PointLight.PNG)
+![PointLightDemo](../assets/PointLight3.png)
+
+Le soleil a un fragment shader de lumière différent des autres planètes et des asteroids qui ne calcul pas la lumière de facon a ne pas être illuminé. Parce que la point light se trouve au centre du soleil, il avait donc une absence de lumière.
+
+### Normal Mapping
+
+### Bloom
+Pour créer un effet de bloom, les parties claires de la texture diffuse du soleil ont été écrites sur une texture séparée qui a ensuite été floutée avec du mipmapping pour finir par être combiné avec le résultat de la passe finale en passant par le framebuffer.
+
+![Bloom Sun](../assets/Sun2.PNG)
+![Bloom Sun](../assets/Sun1.PNG)
+
+## Skybox
+### Fond étoilé
 Une skybox est un procédé graphique permettant de donner, dans un espace tridimensionnel, l'illusion que cet espace est plus étendu qu'il ne l'est réellement. Pour ce faire nous utilisons une texture qui contient plusieurs faces et les assemblons pour créer une énorme boite qui contiendra les objets de la scène.
 
 ![Skybox exemple](../assets/Example_Skybox.png)
