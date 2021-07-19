@@ -11,7 +11,7 @@ Dans le cadre du module 5300 à l'école SAE Institute, nous avions pour tâche 
 
 ## Sun
 ### Point Light
-Pour cette démo juste une seule lumière était indispensable, celle émanent du soleil. Le choix de la point light s'est imposée. Une point light est très similaire à une directionnal light, la différence est qu'on ne donne pas une direction au vertex shader mais une position et que le vertex shader doit calculer la direction de la lumière pour chaque vertex de la scène. Pour le fragment shader la petite différence qu'il reçoit une direction de lumière interpolée.
+Pour cette démo juste une seule lumière était indispensable, celle émanent du soleil. Le choix de la point light s'est imposée. Une point light est très similaire à une directionnal light, la différence est qu'on ne donne pas une direction au vertex shader mais une position et que le vertex shader doit calculer la direction de la lumière pour chaque vertex de la scène. Pour le fragment shader la petite différence qu'il reçoit une direction de lumière interpolée. Le type de lumière qui a été utilisée dans cette demo est le Blinn-Phong.
 ![PointLightSchema](../assets/PointLight.PNG)
 ![PointLightDemo](../assets/PointLight3.png)
 
