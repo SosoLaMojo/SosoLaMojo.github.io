@@ -10,7 +10,7 @@ As part of the 5300(Computer Graphics) module at the SAE Institute school, we we
 ## Planets + Sun
 ![SpawnPlanets](../assets/GIF/spawnPlanets.gif)
 
-The sun is in the center of the scene (0,0,0) and the planets are drawn one after the other from the center of this scene. The planets each have a color texture and a normal map which are applied to a sphere.
+The sun is in the center of the scene (0,0,0) and the planets are drawn one after the other from the center of this scene. The planets each have a color texture and a normal map which are applied to the sphere.
 
 ![Texture Planet Venus](../assets/Montage_normal_mapping.PNG)
 
