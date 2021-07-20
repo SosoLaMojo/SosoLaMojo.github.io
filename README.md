@@ -6,7 +6,7 @@
 
 # Blogpost
 
-# [Demo OpenGL System Solar](https://sosolamojo.github.io/demo_computer_graphics)
+# [Demo OpenGL Solar System](https://sosolamojo.github.io/demo_computer_graphics)
 
 # [Technical Document Tool SceneExporter](https://sosolamojo.github.io/tool_scene_exporter_doc_tech)
 
