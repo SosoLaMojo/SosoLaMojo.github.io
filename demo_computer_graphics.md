@@ -67,7 +67,7 @@ A skybox is a graphic technic that gives the illusion that a three-dimensional s
 ![Skybox exemple](../assets/Example_Skybox.png)
 
 # Conclusion
-I learned a lot during this module as mentioned above but it is possible to push the project a bit further. Some optimizations and technics could have been done like:
+I learned a lot during this module as mentioned above but it is possible to push the project a bit further. Some optimizations and techniques could have been done like:
 
 OpenGL
 * Load only one mesh sphere for all my planets
