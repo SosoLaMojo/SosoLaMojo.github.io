@@ -51,20 +51,10 @@ Une solution a ca c'est le normal mapping. Il consiste a donner une illusion de 
 
 ![Normal mapping compare](../assets/normal_mapping_compare.png)
 
-
 ### Bloom
 Pour créer un effet de bloom, les parties claires de la texture diffuse du soleil ont été écrites sur une texture séparée qui a ensuite été floutée avec du mipmapping pour finir par être combiné avec le résultat de la passe finale en passant par le framebuffer.
 
-TODO faire un montage avec ses images:
-sans bloom:
-![Bloom Sun](../assets/Sun1.PNG)
-
-le bloom:
-![Bloom Sun](../assets/Sun2.PNG)
-
-combinaison des deux:
-
-![Bloom Sun](../assets/Sun3.PNG)
+![Bloom Sun](../assets/Montage_bloom_sun.PNG)
 
 ### Tone mapping
 Le problème qui survient en rajoutant du bloom, est que par défaut dans le framebuffer les couleurs sont contenus entre 0 et 1, c'est ce qu'on appel du LDR. Pour pallier a ce problème on utilise du HDR pour ne pas limiter les couleurs entre 0 et 1. Par contre comme nos écrans sont en LDR, nous devons repasser en LDR en utilisant du tone mapping, avec par exemple la technique de Reihnard, utilisée dans cette demo.
