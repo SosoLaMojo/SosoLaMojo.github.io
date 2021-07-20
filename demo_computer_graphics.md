@@ -19,8 +19,6 @@ The sun is in the center of the scene (0,0,0) and the planets are drawn one afte
 ## Instancing
 The technique used for the sun and planets is not appropriate for the two asteroid belts, drawing the asteroids one after the other would be too costly from a performance point of view since what takes the most time is sending the data to the GPU. The most sensible solution is to use instancing which consists in drawing several objects in a single drawcall by the GPU without having to communicate again with the CPU for each object. In our case this allows to send only one texture for the color and only one mesh for all the asteroids.
 
-Translated with www.DeepL.com/Translator (free version)
-
 ![Texture Asteroid](../assets/Montage_Asteroid.PNG)
 
 ## Frustum Culling
@@ -56,7 +54,7 @@ A solution to this is the normal mapping. It consists in giving an illusion of r
 ## Bloom
 To create a bloom effect, the light parts of the diffuse sun texture were written on a separate texture which was then blurred with mipmapping and finally combined with the result of the final pass through the framebuffer.
 
-![Bloom Sun](../assets/Montage_bloom_sun.PNG)
+![Bloom Sun](../assets/Montage_bloom_sun2.PNG)
 
 ## Tone mapping
 The problem that arises when adding bloom is that by default in the framebuffer the colors are contained between 0 and 1, this is called LDR. To overcome this problem we use HDR to not limit the colors between 0 and 1. However, as our screens are in LDR, we must switch back to LDR using tone mapping, with for example the technique of Reihnard, used in this demo.
