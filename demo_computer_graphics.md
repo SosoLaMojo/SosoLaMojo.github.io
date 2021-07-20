@@ -74,6 +74,7 @@ J'ai appris beaucoup durant ce module tel que sité plus haut mais je ne suis pa
 * Inclure des vaisseaux de Star Wars
 * Ajouter du PBR pour un meilleur rendu visuel
 * Ajouter du Shadow Map
+* Implémenter une caméra plus complexe pour le déplacement automatique
 
 Avec une meilleure comprehension de OpenGL et plus de temps j'aurais certainement réussi a atteindre ses objectifs.
 
