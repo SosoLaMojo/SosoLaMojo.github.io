@@ -67,5 +67,14 @@ Une skybox est un procédé graphique permettant de donner, dans un espace tridi
 ![Skybox exemple](../assets/Example_Skybox.png)
 
 # Conclusion
+J'ai appris beaucoup durant ce module tel que sité plus haut mais je ne suis pas totalement satisfaite du résultat. Certaines optimisations et techniques auraient pu être faites comme:
+* Loader qu'un seul obj sphère pour toutes mes planètes
+* Faire un oval avec les ceintures d'asteroides et non des cercles
+* Régler la rotation des planètes sur elles-mêmes qui ne sont pas correctes
+* Inclure des vaisseaux de Star Wars
+* Ajouter du PBR pour un meilleur rendu visuel
+* Ajouter du Shadow Map
+
+Avec une meilleure comprehension de OpenGL et plus de temps j'aurais certainement réussi a atteindre ses objectifs.
 
 ##### [Return to home page](https://sosolamojo.github.io/)
