@@ -19,7 +19,7 @@ Le soleil se trouve au centre de la scène (0,0,0) et les planète ses dessine l
 ### Instancing
 La technique utilisée pour le soleil et les planètes n'est pas appropriée pour les deux ceintures d'asteroids, dessiner les asteroids les uns aprés les autres serait trop couteux point de vue performances. La solution la plus sensée est d'utiliser l'instancing qui consiste a dessiner plusieurs objets dans un seul drawcall par le GPU sans avoir a communiquer de nouveau avec le CPU pour chaque objet. Dans notre cas cela permet d'envoyer qu'une seule texture pour la couleur et qu'un seul mesh pour tout les asteroides.
 
-TODO Faire un schéma mesh + color => rendu final astéroides
+![Texture Asteroid](../assets/Montage_Asteroid.PNG)
 
 ### Frustum Culling
 Le Frustum Culling consiste à dessiner uniquement les objets qui se trouvent dans le champ de vision de la caméra en utilisant un Frustum. Cette technique a été utilisé pour l'instancing des asteroids étant donné qu'il y en a 7000 dans la scène et qu'il ne sont pas forcément tous visibles en même temps.
