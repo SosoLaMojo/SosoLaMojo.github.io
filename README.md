@@ -6,9 +6,9 @@
 
 # Blogpost
 
-# [Blogpost Voliday Feature Programming]
+# [Blogpost Voliday Feature Programming](https://sosolamojo.github.io/blogpost_voliday_3)
 
-# [Blogpost Voliday Game designer]
+# [Blogpost Voliday Game designer](https://sosolamojo.github.io/blogpost_voliday_2)
 
 # [Blogpost Voliday Project](https://sosolamojo.github.io/blogpost_voliday_1)
 
