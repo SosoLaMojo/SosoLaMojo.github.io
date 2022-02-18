@@ -6,11 +6,7 @@
 
 # Blogpost
 
-# [Blogpost Voliday Feature Programming](https://sosolamojo.github.io/blogpost_voliday_3)
-
-# [Blogpost Voliday Game designer](https://sosolamojo.github.io/blogpost_voliday_2)
-
-# [Blogpost Voliday Project](https://sosolamojo.github.io/blogpost_voliday_1)
+# [Blogposts Voliday A CityBuilder Game](https://sosolamojo.github.io/blogposts_voliday_home)
 
 # [Demo OpenGL Solar System](https://sosolamojo.github.io/demo_computer_graphics)
 
