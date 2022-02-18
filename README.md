@@ -6,7 +6,7 @@
 
 # Blogpost
 
-# [Blogposts Voliday A CityBuilder Game](https://sosolamojo.github.io/voliday_folder/blogposts_voliday_home)
+# [Blogposts Voliday, a citybuilder game](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_home)
 
 # [Demo OpenGL Solar System](https://sosolamojo.github.io/demo_computer_graphics)
 
