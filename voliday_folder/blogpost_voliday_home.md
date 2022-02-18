@@ -2,9 +2,9 @@
 
 # [Blogpost Voliday Project](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_project)
 
-# [Blogpost Voliday Game design](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_2)
+# [Blogpost Voliday Game design](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_game_design)
 
-# [Blogpost Voliday Feature Programming](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_3)
+# [Blogpost Voliday Feature Programming](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_feature_programming)
 
 
 
