@@ -6,7 +6,7 @@
 
 # Blogpost
 
-# [Blogpost Voliday 1]
+# [Blogpost Voliday 1](https://sosolamojo.github.io/blogpost_voliday_1)
 
 # [Demo OpenGL Solar System](https://sosolamojo.github.io/demo_computer_graphics)
 
