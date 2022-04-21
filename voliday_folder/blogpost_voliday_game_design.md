@@ -16,14 +16,17 @@ Inspirations:
 
 Holiday Island
 [https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=1647](https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=1647)
+![Cover_Holiday_Island](../assets/voliday_assets/Holiday_Island_cover.jpg)
 
 
 Tropico 6
 [https://store.steampowered.com/app/492720/Tropico_6/](https://store.steampowered.com/app/492720/Tropico_6/)
+![Cover_Tropico_6](../assets/voliday_assets/tropico6Cover.jpg)
 
 
 Parkitect
 [https://store.steampowered.com/app/453090/Parkitect/](https://store.steampowered.com/app/453090/Parkitect/)
+![Cover_Parkitect](../assets/voliday_assets/Parkitect_cover.jpg)
 
 
 ##### [Return to home page](https://sosolamojo.github.io/)
