@@ -6,7 +6,7 @@ Each residential building has an accessibility zone to allow AI to access other 
 There are two types of dwellings, an inn for the poor AI and a castle for the rich AI. Each of these have their own types of business, commercial and restaurant buildings. Their code for their accessibility zone works the same way, the only change is the list of buildings that are eligible.
 Each dwelling contains a list of buildings that are within its range (BuildingsInRange).
 
-
+![GraphGDD](../assets/voliday_assets/step1.png)
 
 
 
