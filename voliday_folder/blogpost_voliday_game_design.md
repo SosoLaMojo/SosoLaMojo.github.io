@@ -81,7 +81,9 @@ I spent many hours playing this game, and the main inspiration was the UI, the i
 The collaboration with the audio team was a great experience. They didn't have the opportunity during their training to produce audio assets for a video game, but they enjoyed working on Voliday with us, and it's mutual. They did an excellent job and we thank them for that. As GD, I had made them a document with a list of inspirations and another with a list of assets to produce. I really enjoyed being involved in some of the recording sessions with the audio team, especially the sound effects session, which showed me how much work they do and how much ingenuity goes into creating audio assets. It was a very enriching experience, which allowed me to discover another aspect of the creation of a video game, which I didn't necessarily know in my games programming training.
 
 Image1
+
 Image2
+
 Image3
 
 ### Games Art
@@ -93,6 +95,7 @@ When writing the different reference documents for Game Arts, I had some difficu
 Once the basics of the Game Design Document were established, we made a Lego model to better visualize the island and the size of the buildings. This allowed us to establish a unit of measurement for the artists and the size of each object on the island. We did this because it was difficult for me to get my bearings when creating the Game Design Document and this model allowed me to have a better visual perspective on the design of the document and the game in general.
 
 Image Lego
+
 Image Unit
 
 ## Mechanics and diagrams
