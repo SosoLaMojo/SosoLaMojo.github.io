@@ -201,5 +201,5 @@ Vincent Tinguely,
 THANKS A LOT!
 
 
-##### [return to home blogposts Voliday](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_home)
+##### [return to home page blogposts Voliday](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_home)
 ##### [Return to home page](https://sosolamojo.github.io/)
