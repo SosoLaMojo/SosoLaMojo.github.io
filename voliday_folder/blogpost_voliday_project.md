@@ -6,14 +6,14 @@ As Lead Game Designer, one of my tasks is to create a game that is playable by u
 ## Prices balancing
 When designing the GDD, I created a table that contains all the information about the buildings. Their purchase price, resale price, monthly maintenance cost, income per tourist, the amount of resources used or produced and the type of tourist targeted (poor or rich). This was a good basis for the development of the game.
 
-Image tableur batiments
+![BuildingsSheet](../assets/voliday_assets/SheetBuilding.PNG)
 
 But as we got to the end of the project, and playtested the game, we noticed some gameplay problems with the values used. I quickly set about changing these values logically, play-testing each change myself so that the player would not end up with a negative amount even if all the buildings were placed correctly. As my comrades have created a very handy spreadsheet to use, most of the values are in the same file, which makes the modification very simple.
 
 ## Balancing accessibility and noise zones
 The accessibility and noise zones are of great importance in the gameplay of the game. This determines the placement of buildings on the island. If the player places a house too close to an activity, it will suffer from noise and the AI will be unhappy. Conversely, if the player places the house too far away from an activity, the AIs will not be able to access it and will also be unhappy. The adjustment of the size of the zones is therefore of great importance in order to allow the player to have an enjoyable game experience while at the same time having some challenge so as not to bore the player with a game that is too easy. It's a balance, which is sometimes not easy to find. In order to help me in this process, I made a diagram of the island at the beginning of our project to determine the size of the zones of each building.
 
-Image Schema ile
+![IslandSchema](../assets/voliday_assets/IslandSchema.PNG)
 
 I think luckily the zone sizes didn't need much change, just a few tweaks to make the gameplay interesting.
 
