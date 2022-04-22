@@ -1,6 +1,6 @@
 # Post-mortem Lead Game Designer
 
-## Contexte
+## Context
 During the specialization project of the Games Programming section in the Bachelor's year at the SAE Institute in Geneva, we were asked to work on a video game project in a group and in collaboration with students from other sections of the school (game art and audio). The specialization module consists in having a specific role in the development of our group project. For my part, throughout the project, I took on the role of Lead Game Designer but also of substitute Lead UI/UX Designer.
 
 ### Constraints
