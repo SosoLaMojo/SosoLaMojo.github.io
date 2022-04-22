@@ -144,50 +144,54 @@ The role of Lead Game Designer on this project has largely confirmed that I enjo
 I would like to thank all the people involved in this project, colleagues, outsiders and stakeholders. This project would not have been possible without all these people, who helped us throughout these 8 months of development. Their involvement and support have been invaluable during this beautiful adventure.
 
 TEAM PROGRAMMERS
-Oleg Loshkin (Project Chief)
-William Pepin (Producer)
-Marvin Scharding (Lead UI/UX Design)
-Lorna Dupuis (DevOps)
-Guillaume Jeannin (R’n’D)
+Oleg Loshkin (Project Chief),
+William Pepin (Producer),
+Marvin Scharding (Lead UI/UX Design),
+Lorna Dupuis (DevOps),
+Guillaume Jeannin (R’n’D),
 Vincent Dworak (Lead Programmer)
 
+
 TEAM AUDIOS
-Alexandre Calvete (Sound Designer)
-Christian Légeret (Sound Designer)
-Hugo Tavares (Sound Designer)
-Julien Bussard (Lead Audio)
+Alexandre Calvete (Sound Designer),
+Christian Légeret (Sound Designer),
+Hugo Tavares (Sound Designer),
+Julien Bussard (Lead Audio),
+
 
 TEAM GAMES ART
-Anastasia Petcova (Buildings/Props Artist)
-Dévran Porchet (Environment Artist)
-Emilie Maire (Props Artist)
-Julien Kobler (Lead Chara)
-Lisa Manolache (Lead Buildings / 2D)
-Marie Sobredo (Buildings/Props Artist)
-Marion Giovanola (Lead Props)
-Mia Calin (Lead 2D / UI et UX)
-Nolan Zannato (Buildings / Props Artist)
-Raphael Schnegg (Buildings Artist)
-Steven Voirol (Environment / Props Artist)
-Théotime Millois (Chara Artist)
+Anastasia Petcova (Buildings/Props Artist),
+Dévran Porchet (Environment Artist),
+Emilie Maire (Props Artist),
+Julien Kobler (Lead Chara),
+Lisa Manolache (Lead Buildings / 2D),
+Marie Sobredo (Buildings/Props Artist),
+Marion Giovanola (Lead Props),
+Mia Calin (Lead 2D / UI et UX),
+Nolan Zannato (Buildings / Props Artist),
+Raphael Schnegg (Buildings Artist),
+Steven Voirol (Environment / Props Artist),
+Théotime Millois (Chara Artist),
 Tina Dikosavic (Lead Environment)
 
+
 STAKEHOLDERS
-Elias Farhan (Head Games Programming)
-Laurent Vonlanthen (Head Audio)
-Nicolas Siorak (Head Bachelor)
-Nicolas Vallée (Head Game Arts)
+Elias Farhan (Head Games Programming),
+Laurent Vonlanthen (Head Audio),
+Nicolas Siorak (Head Bachelor),
+Nicolas Vallée (Head Game Arts),
+
 
 MENTORS AND EXTERNALS
-Duncan Bourquard
-Fréderic Dubouchet
-Guillaume Laugé
-Luca Floreau
-Nicolas Brière
-Nicolas Schneider
-Philippe Métral
-Sylvain Cardin
-Vincent Tinguely
+Duncan Bourquard,
+Fréderic Dubouchet,
+Guillaume Laugé,
+Luca Floreau,
+Nicolas Brière,
+Nicolas Schneider,
+Philippe Métral,
+Sylvain Cardin,
+Vincent Tinguely,
 
 THANKS A LOT!
 
