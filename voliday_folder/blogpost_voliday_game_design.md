@@ -155,7 +155,7 @@ The role of Lead Game Designer on this project has largely confirmed that I enjo
 ## Acknowledgements
 I would like to thank all the people involved in this project, colleagues, outsiders and stakeholders. This project would not have been possible without all these people, who helped us throughout these 8 months of development. Their involvement and support have been invaluable during this beautiful adventure.
 
-TEAM PROGRAMMERS
+PROGRAMMERS TEAM
 
 Oleg Loshkin (Project Chief),
 William Pepin (Producer),
@@ -164,8 +164,17 @@ Lorna Dupuis (DevOps),
 Guillaume Jeannin (R’n’D),
 Vincent Dworak (Lead Programmer)
 
+TOOL TEAM
 
-TEAM AUDIOS
+André Silva de Carvalho (Gameplay Values Editor Tool),
+Florian Rossignol (Cheating Tool),
+Jeffrey Antonelli (Unreal Class Deleter Tool),
+Ludo Bernard (DataBase Gameplay Values Tool),
+Paul Breuza (Simulator Gameplay Values Tool),
+Sandy Woolman (Tile Flag Painter Tool),
+Victor Gonnet (Blueprint Assert Node Tool)
+
+AUDIOS TEAM
 
 Alexandre Calvete (Sound Designer),
 Christian Légeret (Sound Designer),
@@ -173,7 +182,7 @@ Hugo Tavares (Sound Designer),
 Julien Bussard (Lead Audio)
 
 
-TEAM GAMES ART
+GAMES ART TEAM
 
 Anastasia Petcova (Buildings/Props Artist),
 Dévran Porchet (Environment Artist),
