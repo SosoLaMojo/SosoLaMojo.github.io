@@ -128,7 +128,7 @@ If I add a castle that consumes 8 water points, that makes a total of 17 points 
 
 When a building is missing a resource, an icon corresponding to the missing resource is displayed above the building concerned.
 
-Image ressource4
+![SchemaRessource4](../assets/voliday_assets/Ressource4.PNG)
 
 ### AI
 For the behavior of the AIs, it was more complicated to create diagrams. So I explained their mechanics and function with animations in the Game Design Document. For example, their arrival conditions.
