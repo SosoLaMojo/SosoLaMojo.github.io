@@ -55,19 +55,24 @@ Below you can find the link to the itch page of our game:
 
 ### Holiday Island
 This game is the one I had in mind as soon as I was given the role of GD. It's an old PC management game that I played as a kid. It has simple mechanics and UI that fit well with the kinds of features I wanted. Especially since the world fit perfectly with our idea of a tourist paradise island but without the volcano.
+
 [https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=1647](https://www.abandonware-france.org/ltf_abandon/ltf_jeu.php?id=1647)
+
 ![Cover_Holiday_Island](../assets/voliday_assets/Holiday_Island_cover.jpg)
 
 
 ### Tropico 6
 Tropico 6 was a discovery following my search for inspiration. Its features are much more complex than the game we wanted to design, but what appealed to me was the placement of the buildings as well as the musical universe, which we were inspired by.
-[https://store.steampowered.com/app/492720/Tropico_6/](https://store.steampowered.com/app/492720/Tropico_6/)
-![Cover_Tropico_6](../assets/voliday_assets/tropico6Cover.jpg)
 
+[https://store.steampowered.com/app/492720/Tropico_6/](https://store.steampowered.com/app/492720/Tropico_6/)
+
+![Cover_Tropico_6](../assets/voliday_assets/tropico6Cover.jpg)
 
 ### Parkitect
 I spent many hours playing this game, and the main inspiration was the UI, the information contained in each window and the time flow. The mechanics being simple to understand for the player and apparently not too complex to implement, I decided to use them as inspiration for Voliday.
+
 [https://store.steampowered.com/app/453090/Parkitect/](https://store.steampowered.com/app/453090/Parkitect/)
+
 ![Cover_Parkitect](../assets/voliday_assets/Parkitect_cover.jpg)
 
 ## Collaboration with audios and games art
