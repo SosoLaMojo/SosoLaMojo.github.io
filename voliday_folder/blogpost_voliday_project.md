@@ -1,6 +1,6 @@
 # Voliday Balancing
 
-## Contexte
+## Context
 As Lead Game Designer, one of my tasks is to create a game that is playable by users and fun. Balancing is a very important task, in order to adjust the values that have a direct impact on the functioning of the game and its playability, especially in a city builder, where the management of money and available resources is an integral part of this style of video games.
 
 ## Prices balancing
