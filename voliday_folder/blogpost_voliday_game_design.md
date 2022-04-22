@@ -1,5 +1,7 @@
 # Post-mortem Lead Game Designer
 
+![Logo_Voliday](../assets/voliday_assets/voliday_logo.png)
+
 ## Context
 During the specialization project of the Games Programming section in the Bachelor's year at the SAE Institute in Geneva, we were asked to work on a video game project in a group and in collaboration with students from other sections of the school (game art and audio). The specialization module consists in having a specific role in the development of our group project. For my part, throughout the project, I took on the role of Lead Game Designer but also of substitute Lead UI/UX Designer.
 
@@ -47,6 +49,8 @@ Along with my role as Lead Game Designer, I also had the role of programmer, lik
 
 ### Elevator pitch
 Voliday is a city builder set on a volcanic island paradise. The objective is to make the island prosper by constructing unique buildings and tourist activities while exploiting the resources of the volcano.
+
+![DemoIsland](../assets/voliday_assets/demoIsland.png)
 
 Below you can find the link to the itch page of our game: 
 ##### [https://volcanoteam.itch.io/](https://volcanoteam.itch.io/)
