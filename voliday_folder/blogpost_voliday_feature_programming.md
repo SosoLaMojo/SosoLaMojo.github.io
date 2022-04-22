@@ -1,5 +1,5 @@
 # Voliday Accessibility Feature
-## Contexte
+## Context
 During the development of this game, one of the tasks I was given was to create an accessibility zone for residential buildings (inns and castles).
 
 Each residential building has an accessibility zone to allow AIs to access other buildings (restaurants, activities and shops). If a business is not in the accessibility zone of a house, it will not be accessible by the AIs. In summary, homes send AIs, while restaurants, businesses and activities receive them.
