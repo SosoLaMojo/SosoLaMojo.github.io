@@ -1,10 +1,10 @@
 # Blogposts Voliday, a citybuilder game
 
-# [Blogpost Voliday Project](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_project)
+# [Post-mortem Voliday Game designer](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_game_design)
 
-# [Blogpost Voliday Game design](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_game_design)
+# [Voliday Feature Programming](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_feature_programming)
 
-# [Blogpost Voliday Feature Programming](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_feature_programming)
+# [Voliday Balancing](https://sosolamojo.github.io/voliday_folder/blogpost_voliday_project)
 
 
 
