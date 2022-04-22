@@ -80,11 +80,11 @@ I spent many hours playing this game, and the main inspiration was the UI, the i
 ### Audios
 The collaboration with the audio team was a great experience. They didn't have the opportunity during their training to produce audio assets for a video game, but they enjoyed working on Voliday with us, and it's mutual. They did an excellent job and we thank them for that. As GD, I had made them a document with a list of inspirations and another with a list of assets to produce. I really enjoyed being involved in some of the recording sessions with the audio team, especially the sound effects session, which showed me how much work they do and how much ingenuity goes into creating audio assets. It was a very enriching experience, which allowed me to discover another aspect of the creation of a video game, which I didn't necessarily know in my games programming training.
 
-Image1
+![Audio1](../assets/voliday_assets/Audio1.jpg)
 
-Image2
+![Audio2](../assets/voliday_assets/Audio2.jpg)
 
-Image3
+![Audio3](../assets/voliday_assets/Audio3.jpg)
 
 ### Games Art
 The collaboration with the game artists went very well, even if we gave them a lot of work, it seems that they are happy with the result. As GD, I quickly wrote documents for the artist team to give them the inspirations, illustrating as much as possible each element and each building. Then, together with my classmate Marvin Scharding, we also co-wrote the inspirations and assets expected for each element of the UI.
@@ -94,9 +94,9 @@ When writing the different reference documents for Game Arts, I had some difficu
 ## Model
 Once the basics of the Game Design Document were established, we made a Lego model to better visualize the island and the size of the buildings. This allowed us to establish a unit of measurement for the artists and the size of each object on the island. We did this because it was difficult for me to get my bearings when creating the Game Design Document and this model allowed me to have a better visual perspective on the design of the document and the game in general.
 
-Image Lego
+![ModelLego](../assets/voliday_assets/lego.jpg)
 
-Image Unit
+![Unit](../assets/voliday_assets/Unit.PNG)
 
 ## Mechanics and diagrams
 In order to better visualize the mechanics for my teammates, I tried to schematise as much as possible each of them in the Game Design Document. But I also created a presentation with only images and animation, which in the end was much more useful than the above mentioned document. I have detailed as many examples as possible in the Game Design Document, to make sure that the mechanics are really well understood, while being available for any questions from my fellow students.
@@ -104,23 +104,23 @@ In order to better visualize the mechanics for my teammates, I tried to schemati
 ### Noise zones
 Noise zones are produced by all buildings except dwellings. When a house is in the noise zone of another building, it is affected by the nuisance, which displeases the tourists staying in the house and lowers the satisfaction of the RNs (which has an impact on the popularity of the island).
 
-Image noise
+![SchemaNoise](../assets/voliday_assets/noiseENG.PNG)
 
 ### Water resources provided by water wells
 The wells are used to provide water for the operation of the buildings on the whole island (X buildings). The water points are added to the meter in the IU. If the number of buildings exceeds the total water capacity, they do not function and therefore no tourists come.
 
-Image ressource1
+![SchemaRessource1](../assets/voliday_assets/Ressource1.PNG)
 
 The well produces 10pts of water which will be added to the stock of water resources in the IU. The placement of the wells is up to the player.
 
 **Example:**
 On my island I have built a well (which produces 10 water points) as well as an inn (which uses 5 water points) and a tavern (which uses 4 water points). So there are 9 out of 10 water points used on the island.
 
-Image ressource2
+![SchemaRessource2](../assets/voliday_assets/Ressource2.PNG)
 
 If I add a castle that consumes 8 water points, that makes a total of 17 points out of 10, which is not possible. In this case, the castle will not function and will not be able to welcome visitors to generate income. A mill will have to be added to increase the electricity resource.
 
-Image ressource3
+![SchemaRessource3](../assets/voliday_assets/Ressource3.PNG)
 
 When a building is missing a resource, an icon corresponding to the missing resource is displayed above the building concerned.
 
@@ -131,7 +131,7 @@ For the behavior of the AIs, it was more complicated to create diagrams. So I ex
 
 We had two types of AI, the rich and the poor, both of which have different conditions for them to arrive on the island. The rich can come when the popularity of the island reaches 3 stars, the port is present and functional as well as a castle to welcome them and an activity corresponding to them. For the poor, the conditions are similar, i.e. to have a functional port and an inn to lodge, but they do not need to have a certain popularity to arrive on the island. As soon as the player fulfills these two conditions, poor AIs arrive on the island.
 
-Image arrival conditions IA
+![ArrivalCOnditionAI](../assets/voliday_assets/IA.PNG)
 
 ## Difficulties encountered
 My main difficulty was to write the GDD and especially to get my teammates to read it. Most of them did not consult the document, either in their own way, which did not necessarily correspond to what was expected, or by asking me questions when everything was in the Game Design Document. This caused problems, such as repeating the same thing several times. Or for example, when the AI satisfaction system was made with two variables, one for satisfaction and one for dissatisfaction. What was expected was to have only one variable, so that the satisfaction icons would be displayed over the AIs according to their satisfaction gauge and not be satisfied and dissatisfied at the same time. So we have two icons displayed instead of one, which is counter-intuitive to the player.
